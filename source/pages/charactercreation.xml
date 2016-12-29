@@ -2,20 +2,42 @@
 <h2>Choose a Specialty</h2>
 <p>Look at the list of specialties and choose one that interests you. Your Inquisitor's retinue doesn't need two of the same type of class, so if two people want the same class talk it over like adults and compromise. Your character will be able to unlock new specialities as they level up.</p>
 
-<p class="first-person">I want to look for clues and interrogate people, so I'll pick Investigator.</p>
+<blockquote class="first-person">I want to look for clues and interrogate people, so I'll pick Investigator.</blockquote>
 
 <h2>Choose a Background</h3>
 <p>Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.</p>
 
 <ul class="options">
-{{#backgrounds_list}}<li>{{name}}  </li>
+{{#backgrounds_list}}<li>{{name}}</li>
 {{/backgrounds_list}}
 </ul>
 
-<p class="first-person">I'd like to have a religious background as someone who grew up working in a Basilica. I'll choose Ecclesiarchy.</p>
+<blockquote class="first-person">I'd like to have a religious background as someone who grew up working in a Basilica. I'll choose Ecclesiarchy.</blockquote>
+
+<h2>Assign Your Stats</h2>
+<p>You get the following stats to assign to your character: {{#each stats.starting}}{{.}}{{/each}}. Assign each one to one of the following characteristics.</p>
+
+<h2>Choose a Home World</h2>
+<p>Your Home World will give one special move and allow you to increase one of your stats.</p>
+
+{{#each home_worlds.list}}
+<h3>{{name}}</h3>
+<p>{{description}}</p>
+<p><strong>World Move:</strong> {{move}}</p>
+<p><strong>Stat:</strong> Add +1 to one of these stats to a max of +2:</p>
+<ul>
+{{#each stats}}<li>{{#stat}}{{.}}{{/stat}}</li>
+{{/each}}
+</ul>
+{{/each}}
+
+<h2>Modify Your Stats</h2>
+<p>Change one of your stats based on the bonus offered by your Home World.</p>
+
+<h2>Set Your Max Wounds</h2>
+<p>Your max wounds is equal to 4. If your {{stat 't'}} is positive, add that as well.</p>
 
 <h2>Choose a Name</h2>
-
 <p>Select a name for your character. Make something up on your own or roll on the tables below to inspire you.</p>
 
 <table class="table table-striped"><thead>
@@ -26,8 +48,8 @@
 <th align="left">Nickname</th>
 </tr>
 </thead><tbody>
-{{#names.table}}<tr><td>{{male}}</td><td>{{female}}</td><td>{{nickname}}</td></tr>
+{{#names.table}}<tr><td>{{d}}</td><td>{{male}}</td><td>{{female}}</td><td>{{nickname}}</td></tr>
 {{/names.table}}
 </tbody></table>
 
-<p class="first-person">I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.</p>
+<blockquote class="first-person">I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.</blockquote>
