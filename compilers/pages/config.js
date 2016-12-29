@@ -5,8 +5,9 @@ module.exports = config = {
   gameDataFile: path.resolve(path.join(source, 'game_data.json')),
   pagesDir: path.resolve(path.join(source,'pages')),
   partialsDir: path.resolve(path.join(source, 'partials')),
+  helperFiles: [path.resolve(__dirname, 'helpers')],
   htmlStepConfig: {
-    protectedNodeNames: ['div', 'ul', 'p', 'li', 'span', 'strong', 'em', 'nl', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'thead', 'tbody', 'th', 'td'],
+    protectedNodeNames: ['div', 'ul', 'p', 'li', 'span', 'strong', 'em', 'nl', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'thead', 'tbody', 'th', 'td', 'blockquote', 'abbr'],
     nodesToNodes: {
     'class-name': 'h1',
     'section-title': 'h2',
