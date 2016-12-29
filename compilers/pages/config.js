@@ -1,0 +1,17 @@
+var path                      = require('path')
+var source                    = path.join(__dirname, '..', '..', 'source')
+
+module.exports = config = {
+  gameDataFile: path.resolve(path.join(source, 'game_data.json')),
+  pagesDir: path.resolve(path.join(source,'pages')),
+  partialsDir: path.resolve(path.join(source, 'partials')),
+  htmlStepConfig: {
+    protectedNodeNames: ['div', 'ul', 'p', 'li', 'span', 'strong', 'em', 'nl', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'thead', 'tbody', 'th', 'td'],
+    nodesToNodes: {
+    'class-name': 'h1',
+    'section-title': 'h2',
+    'name': 'h3'
+    },
+    idsFromText: ['h1,h2,h3']
+  }
+}
