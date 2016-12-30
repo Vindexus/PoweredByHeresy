@@ -11,3 +11,7 @@ When you **fire your ranged weapon to deal damage**, roll+BS and expend a use of
 > Fire for Effect is your go-to move when a character is shooting to kill. It covers drawing, cocking, aiming, and shooting your weapon. Firing your weapon doesn't mean squeezing off a single shot, it means shooting for a few seconds. That can mean a single shot, or a whole flurry of them. Either way, it's a single use of the weapon. Leave the exact number of shots to the fiction and let the uses dictate when they run low.
 > 
 > If you're using a weapon that doesn't have enough uses you can't take the bonus damage on the 10+ or the "expend another use" option on a 7-9.
+
+### Hack and Slash
+
+When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy’s attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.

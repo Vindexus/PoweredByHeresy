@@ -1,0 +1,2 @@
+# Hack and Slash
+When you **attack an enemy in melee**, roll+{{stat 'ws'}}. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy’s attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.
