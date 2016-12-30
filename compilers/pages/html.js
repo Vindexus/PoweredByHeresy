@@ -17,6 +17,10 @@ parser.registerHelper(function (Handlebars, gameData) {
     }
     var key = typeof(options) == 'string' ? options : options.fn(this)
     var stat = gameData.stats[key]
+    if(!stat) {
+      console.error('Failed to load stat: ' + key)
+      return 'ERROR'
+    }
     return new Handlebars.SafeString('<span title="(' + stat.abbr + ') ' + stat.description + '">' + stat.name + '</span>')
   })
 })
