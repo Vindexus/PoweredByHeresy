@@ -3,6 +3,6 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "watch": "nodemon -e md,js --watch ../../source index.js"
+    "watch": "nodemon -e md,js --watch ../../source/**/* index.js"
   }
 }

@@ -25,6 +25,34 @@ module.exports = function (Handlebars, gameData) {
     return new Handlebars.SafeString(stat.abbr)
   })
 
+  /* 
+  Returns the name of a move 
+  This can be overridden for certain compilers to change it to a link, or add data to its attributes
+  */
+  Handlebars.registerHelper('move', function(options) {
+    if(!options) {
+      return ''
+    }
+    //TODO: this code is duplciated in the move helper in html.js
+    var move
+    if(typeof(options) == 'string') {
+      move = gameData.moves[options]
+    }
+    else if(typeof(options) == 'object') {
+      if(options.fn) {
+        move = gameData.moves[options.fn(this)]
+      }
+      else {
+        move = options
+      }
+    }
+    if(!move) {
+      console.error('Failed to load move:')
+      return 'ERROR'
+    }
+    return new Handlebars.SafeString(move.name)
+  })
+
   Handlebars.registerHelper('csl', function(context, options) {
     var out = "", data;
 

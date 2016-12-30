@@ -80,7 +80,7 @@ You are the member of a noble house, or powerful family.
 
 Hab blocks and cityscape cover much of this planet.
 
-**World Move:** Hive World characters gain +1 to any Defy Danger rolls when moving through crowds.
+**World Move:** Hive World characters gain +1 to any Last Breath rolls when moving through crowds.
 
 **Choose one:** +1 Agility or +1 Perception, to a max of +2.
 

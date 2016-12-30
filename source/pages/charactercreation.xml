@@ -22,7 +22,7 @@
 {{#each home_worlds.list}}
 <h3>{{name}}</h3>
 <p>{{description}}</p>
-<p><strong>World Move:</strong> {{move}}</p>
+<p><strong>World Move:</strong> {{./move}}</p>
 <p><strong>Choose one:</strong> {{#csl stats or="1"}}+1 {{#statistic}}{{.}}{{/statistic}}{{/csl}}, to a max of +2.</p>
 {{/each}}
 

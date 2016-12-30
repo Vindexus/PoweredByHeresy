@@ -15,3 +15,12 @@ When you **fire your ranged weapon to deal damage**, roll+BS and expend a use of
 ### Hack and Slash
 
 When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy’s attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.
+
+### Defy Danger
+
+When you act despite an imminent threat, describe how and roll. If you...
+
+*   Use your strength of arms, roll+WS
+*   Use a gun, roll+BS
+
+On a 10+ you're good. On a 7-9 uh oh.

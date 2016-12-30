@@ -1,2 +1,2 @@
-<h1>Sepcial Moves</h1>
+<h1>Special Moves</h1>
 {{#each specialmoves}}{{>move}}{{/each}}
