@@ -11,7 +11,17 @@ c.outputDir = path.join(__dirname, '..', '..', 'game', 'github')
 parser.init(c)
 parser.registerPackagedStep('xml2html', c.htmlStepConfig)
 parser.registerStep(function (content, name, config, done) {
-  console.log('content', content)
-  done(toMarkdown(content))
+  var md = toMarkdown(content, {
+    converters: [{
+      filter: function (node) {
+        return node.nodeName == 'DIV'
+      },
+      replacement: function (c) {
+        return c
+      }
+    }],
+    ghf: true 
+  })
+  done(md)
 })
 parser.run()
