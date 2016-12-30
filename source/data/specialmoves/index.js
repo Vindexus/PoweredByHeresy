@@ -1,4 +1,4 @@
 module.exports = {
   points_to: 'moves',
-  list: ['last_breath', 'end_of_session']
+  list: ['this_i_know', 'end_of_session', 'last_breath']
 }

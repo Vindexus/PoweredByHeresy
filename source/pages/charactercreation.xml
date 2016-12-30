@@ -5,7 +5,7 @@
 <blockquote class="first-person">I want to look for clues and interrogate people, so I'll pick Investigator.</blockquote>
 
 <h2>Choose a Background</h3>
-<p>Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.</p>
+<p>Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the {{move this_i_know}} special move.</p>
 
 {{#backgrounds_list}}<background><h3>{{name}}</h3>
 <description>{{{description}}}</description>

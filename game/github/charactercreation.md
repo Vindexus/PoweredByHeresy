@@ -8,7 +8,7 @@ Look at the list of specialties and choose one that interests you. Your Inquisit
 
 ## Choose a Background
 
-Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.
+Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the [This I Know](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#this-i-know) special move.
 
 ### Adeptus Administratrum
 

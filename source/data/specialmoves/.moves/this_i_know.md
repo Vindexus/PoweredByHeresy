@@ -1,2 +1,2 @@
 # This I Know
-Reroll something.
+Once per session, you may **invoke your Background to reroll a move**. To invoke your Background you must describe how your character's experience or a specific event related to your Background would have helped you in the current situation. The GM and the players at the table have to agree, so the more details the better.
