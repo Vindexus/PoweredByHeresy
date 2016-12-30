@@ -3,8 +3,13 @@ module.exports = function (Handlebars, gameData) {
     if(!options) {
       return ''
     }
-    var stat = options.fn(this)
-    return new Handlebars.SafeString(gameData.stats[stat].name)
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var stat = gameData.stats[key]
+    if(!stat) {
+      console.error('Failed to load stat: ' + key)
+      return 'ERROR'
+    }
+    return new Handlebars.SafeString(stat.name)
   })
 
   Handlebars.registerHelper('csl', function(context, options) {

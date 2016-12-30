@@ -10,14 +10,18 @@ Look at the list of specialties and choose one that interests you. Your Inquisit
 
 Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.
 
+*   Adeptus Administratrum
 *   Adeptus Arbites
 *   Adeptus Mechanicus
+*   Ecclesiarchy
+*   Imperial Guard
+*   Outcast
 
 > I'd like to have a religious background as someone who grew up working in a Basilica. I'll choose Ecclesiarchy.
 
 ## Assign Your Stats
 
-You get the following stats to assign to your character: -1-1000+1+1+2\. Assign each one to one of the following characteristics.
+You get the following stats to assign to your character: -1, -1, 0, 0, 0, +1, +1, +2\. Assign each one to one of the following characteristics.
 
 ## Choose a Home World
 
@@ -29,10 +33,7 @@ Planet where everything wants to kill you.
 
 **World Move:** Death World characters gain +1 on all Last Breath rolls.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Agility
-*   Toughness
+**Choose one:** +1 Agility or +1 Toughness, to a max of +2.
 
 ### Feral World
 
@@ -40,10 +41,7 @@ A planet with very little technology.
 
 **World Move:** Feral World characters +1 piercing when using primitive weapons.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Strength
-*   Toughness
+**Choose one:** +1 Strength or +1 Toughness, to a max of +2.
 
 ### Forge World
 
@@ -51,10 +49,7 @@ Manufactorums cover the landscape.
 
 **World Move:** Forge World characters replace one of their d6s with a d8 when rolling Tech-Use.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Intelligence
-*   Toughness
+**Choose one:** +1 Intelligence or +1 Toughness, to a max of +2.
 
 ### Highborn
 
@@ -62,10 +57,7 @@ You are the member of a noble house, or powerful family.
 
 **World Move:** Highborn characters gain +1 to any Defy Danger or Parley rolls that involve talking to members of the Imperium.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Fellowship
-*   Intelligence
+**Choose one:** +1 Fellowship or +1 Intelligence, to a max of +2.
 
 ### Hive World
 
@@ -73,10 +65,7 @@ Hab blocks and cityscape cover much of this planet.
 
 **World Move:** Hive World characters gain +1 to any Defy Danger rolls when moving through crowds.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Agility
-*   Perception
+**Choose one:** +1 Agility or +1 Perception, to a max of +2.
 
 ### Shrine World
 
@@ -84,10 +73,7 @@ This world is dedicated to the veneration of the God-Emperor and his saints.
 
 **World Move:** Shrine World characters can reroll any double 1s result once per session.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Fellowship
-*   Willpower
+**Choose one:** +1 Fellowship or +1 Willpower, to a max of +2.
 
 ### Voidborn
 
@@ -95,10 +81,7 @@ You were born in the cold of space aboard a ship.
 
 **World Move:** Voidborn gain +1 to any rolls to resist warp energy.
 
-**Stat:** Add +1 to one of these stats to a max of +2:
-
-*   Intelligence
-*   Willpower
+**Choose one:** +1 Intelligence or +1 Willpower, to a max of +2.
 
 ## Modify Your Stats
 
@@ -106,7 +89,7 @@ Change one of your stats based on the bonus offered by your Home World.
 
 ## Set Your Max Wounds
 
-Your max wounds is equal to 4 plus your double your Toughness.
+Your max wounds is equal to 4\. If your Toughness is positive, add that as well.
 
 ## Choose a Name
 
