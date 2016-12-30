@@ -18,7 +18,7 @@ Once bonds have been updated look at your alignment or drive. If you fulfilled t
 
 For each "yes" answer everyone marks XP.
 
-### Last Breath
+### Last Breathsd
 
 When **you're dying** you see the darkness cloud your vision as you drift into death. Describe what thoughts or prayers spur you on and roll (don't add any stats).
 

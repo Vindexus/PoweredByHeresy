@@ -1,4 +1,4 @@
-# Defy Danger
+# Defy Danger 
 When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it
 
  - by using martial arts, +{{stat 'ws'}}
