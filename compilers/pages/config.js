@@ -1,8 +1,9 @@
 var path                      = require('path')
 var source                    = path.join(__dirname, '..', '..', 'source')
+var gameDir                   = path.join(__dirname, '..', '..', 'game')
 
 module.exports = config = {
-  gameDataFile: path.resolve(path.join(source, 'game_data.json')),
+  gameDataFile: path.resolve(path.join(gameDir, 'game_data.json')),
   pagesDir: path.resolve(path.join(source,'pages')),
   partialsDir: path.resolve(path.join(source, 'partials')),
   helperFiles: [path.resolve(__dirname, 'helpers')],

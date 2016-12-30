@@ -5,7 +5,7 @@ var gameDataDir = path.join(__dirname, "..", "..", "source", "data")
 var config = {
   shortcuts: ['moves'], //Data in shortcuts is duplicated into game_data root
   gameDataDir: gameDataDir,
-  outputFile: path.join(__dirname, "..", "..", "source", "game_data.json"),
+  outputFile: path.join(__dirname, "..", "..", "game", "game_data.json"),
   debug: true,
   pointers: {}
 }
