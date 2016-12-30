@@ -1,0 +1,2 @@
+<h1>Basic Moves</h1>
+{{#each moves}}{{>move}}{{/each}}

@@ -11,6 +11,7 @@ c.outputDir = path.join(__dirname, '..', '..', 'game', 'github')
 parser.init(c)
 parser.registerPackagedStep('xml2html', c.htmlStepConfig)
 parser.registerStep(function (content, name, config, done) {
+  console.log('content', content)
   done(toMarkdown(content))
 })
 parser.run()

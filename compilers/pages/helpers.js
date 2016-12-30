@@ -1,5 +1,5 @@
 module.exports = function (Handlebars, gameData) {
-  Handlebars.registerHelper('stat', function(options) {
+  Handlebars.registerHelper('statistic', function(options) {
     if(!options) {
       return ''
     }
@@ -10,6 +10,19 @@ module.exports = function (Handlebars, gameData) {
       return 'ERROR'
     }
     return new Handlebars.SafeString(stat.name)
+  })
+
+  Handlebars.registerHelper('stat', function(options) {
+    if(!options) {
+      return ''
+    }
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var stat = gameData.stats[key]
+    if(!stat) {
+      console.error('Failed to load stat: ' + key)
+      return 'ERROR'
+    }
+    return new Handlebars.SafeString(stat.abbr)
   })
 
   Handlebars.registerHelper('csl', function(context, options) {

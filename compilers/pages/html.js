@@ -11,7 +11,7 @@ c.footer = "</div></body></html>"
 
 parser.init(c)
 parser.registerHelper(function (Handlebars, gameData) {
-  Handlebars.registerHelper('stat', function(options) {
+  Handlebars.registerHelper('statistic', function(options) {
     if(!options) {
       return ''
     }
@@ -22,6 +22,20 @@ parser.registerHelper(function (Handlebars, gameData) {
       return 'ERROR'
     }
     return new Handlebars.SafeString('<span title="(' + stat.abbr + ') ' + stat.description + '">' + stat.name + '</span>')
+  })
+})
+parser.registerHelper(function (Handlebars, gameData) {
+  Handlebars.registerHelper('stat', function(options) {
+    if(!options) {
+      return ''
+    }
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var stat = gameData.stats[key]
+    if(!stat) {
+      console.error('Failed to load stat: ' + key)
+      return 'ERROR'
+    }
+    return new Handlebars.SafeString('<abbr title="' + stat.name + ': ' + stat.description + '">' + stat.abbr + '</abbr>')
   })
 })
 parser.registerPackagedStep('xml2html', c.htmlStepConfig)
