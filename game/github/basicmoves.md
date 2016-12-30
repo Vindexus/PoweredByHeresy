@@ -18,9 +18,30 @@ When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage t
 
 ### Defy Danger
 
-When you act despite an imminent threat, describe how and roll. If you...
+When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it
 
-*   Use your strength of arms, roll+WS
-*   Use a gun, roll+BS
+*   by using martial arts, +WS
+*   by using a gun, +BS
+*   by powering through, +S
+*   by getting out of the way or acting fast, +Ag
+*   by enduring, +T
+*   with quick thinking, +Int
+*   using charm and social grace, +Fel
+*   through mental fortitude, +WS
+*   noticing something, +Per
 
-On a 10+ you're good. On a 7-9 uh oh.
+On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.
+
+### Defend
+
+When you **stand in defense of a person, item, or location** under attack, roll+T. On a 10+, hold 3\. On a 7–9, hold 1\. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:
+
+*   Redirect an attack from the thing you defend to yourself
+*   Halve the attack\'s effect or damage
+*   Open up the attacker to an ally giving that ally +1 forward against the attacker
+
+### Reload
+
+When you **take a moment to reload your weapon** reset your weapon's uses and expend 1 ammo.
+
+> Once a character has expended all the uses of their weapon they need to reload. This isn't assumed, the players have to explicitly say they take a moment to reload. How long it takes is up to the GM, and reloading certainly counts as a prime opportunity for a GM move.

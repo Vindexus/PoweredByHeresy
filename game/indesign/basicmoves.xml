@@ -10,7 +10,22 @@
   If you're using a weapon that doesn't have enough uses you can't take the bonus damage on the 10+ or the "expend another use" option on a 7-9.</p>
 </blockquote></move><move><h3>Hack and Slash</h3>
 <p>When you <strong>attack an enemy in melee</strong>, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy’s attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.</p></move><move><h3>Defy Danger</h3>
-<p>When you act despite an imminent threat, describe how and roll. If you...</p>
-<ul><li>Use your strength of arms, roll+WS</li>
-<li>Use a gun, roll+BS</li></ul>
-<p>On a 10+ you're good. On a 7-9 uh oh.</p></move></Root>
+<p>When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it</p>
+<ul><li>by using martial arts, +WS</li>
+<li>by using a gun, +BS</li>
+<li>by powering through, +S</li>
+<li>by getting out of the way or acting fast, +Ag</li>
+<li>by enduring, +T</li>
+<li>with quick thinking, +Int</li>
+<li>using charm and social grace, +Fel</li>
+<li>through mental fortitude, +WS</li>
+<li>noticing something, +Per</li></ul>
+<p>On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.</p></move><move><h3>Defend</h3>
+<p>When you <strong>stand in defense of a person, item, or location</strong> under attack, roll+T. On a 10+, hold 3. On a 7–9, hold 1. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:</p>
+<ul><li>Redirect an attack from the thing you defend to yourself</li>
+<li>Halve the attack\'s effect or damage</li>
+<li>Open up the attacker to an ally giving that ally +1 forward against the attacker</li></ul></move><move><h3>Reload</h3>
+<p>When you <strong>take a moment to reload your weapon</strong> reset your weapon's uses and expend 1 ammo.</p>
+<blockquote>
+  <p>Once a character has expended all the uses of their weapon they need to reload. This isn't assumed, the players have to explicitly say they take a moment to reload. How long it takes is up to the GM, and reloading certainly counts as a prime opportunity for a GM move.</p>
+</blockquote></move></Root>
