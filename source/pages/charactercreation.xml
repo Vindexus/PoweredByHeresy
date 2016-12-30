@@ -7,10 +7,9 @@
 <h2>Choose a Background</h3>
 <p>Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.</p>
 
-<ul class="options">
-{{#backgrounds_list}}<li>{{name}}</li>
-{{/backgrounds_list}}
-</ul>
+{{#backgrounds_list}}<background><h3>{{name}}</h3>
+<description>{{{description}}}</description>
+</background>{{/backgrounds_list}}
 
 <blockquote class="first-person">I'd like to have a religious background as someone who grew up working in a Basilica. I'll choose Ecclesiarchy.</blockquote>
 
@@ -24,14 +23,14 @@
 <h3>{{name}}</h3>
 <p>{{description}}</p>
 <p><strong>World Move:</strong> {{move}}</p>
-<p><strong>Choose one:</strong> {{#csl stats or="1"}}+1 {{#stat}}{{.}}{{/stat}}{{/csl}}, to a max of +2.</p>
+<p><strong>Choose one:</strong> {{#csl stats or="1"}}+1 {{#statistic}}{{.}}{{/statistic}}{{/csl}}, to a max of +2.</p>
 {{/each}}
 
 <h2>Modify Your Stats</h2>
 <p>Change one of your stats based on the bonus offered by your Home World.</p>
 
 <h2>Set Your Max Wounds</h2>
-<p>Your max wounds is equal to 4. If your {{stat 't'}} is positive, add that as well.</p>
+<p>Your max wounds is equal to 4. If your {{statistic 't'}} is positive, add that as well.</p>
 
 <h2>Choose a Name</h2>
 <p>Select a name for your character. Make something up on your own or roll on the tables below to inspire you.</p>

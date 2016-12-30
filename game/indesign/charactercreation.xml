@@ -8,14 +8,19 @@
 <h2>Choose a Background</h3>
 <p>Your background describes what your character was doing before being recruited by your Inquisitor. It might not have been where your skills brought you to the attention of the Inquisitor, but it is likely. Once per session you may reroll a roll if you can describe how your background would have prepared you for this situation, using the This I Know special move.</p>
 
-<ul class="options">
-<li>Adeptus Administratrum</li>
-<li>Adeptus Arbites</li>
-<li>Adeptus Mechanicus</li>
-<li>Ecclesiarchy</li>
-<li>Imperial Guard</li>
-<li>Outcast</li>
-</ul>
+<background><h3>Adeptus Administratrum</h3>
+<description>Space nerds.</description>
+</background><background><h3>Adeptus Arbites</h3>
+<description>Space cops.</description>
+</background><background><h3>Adeptus Mechanicus</h3>
+<description>Space mechanics.</description>
+</background><background><h3>Ecclesiarchy</h3>
+<description>Space priests.</description>
+</background><background><h3>Imperial Guard</h3>
+<description>Space soldiers.</description>
+</background><background><h3>Outcast</h3>
+<description>Space criminals</description>
+</background>
 
 <blockquote class="first-person">I'd like to have a religious background as someone who grew up working in a Basilica. I'll choose Ecclesiarchy.</blockquote>
 
@@ -28,37 +33,37 @@
 <h3>Death World</h3>
 <p>Planet where everything wants to kill you.</p>
 <p><strong>World Move:</strong> Death World characters gain +1 on all Last Breath rolls.</p>
-<p><strong>Choose one:</strong> +1 Ag or +1 T, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Agility or +1 Toughness, to a max of +2.</p>
 <h3>Feral World</h3>
 <p>A planet with very little technology.</p>
 <p><strong>World Move:</strong> Feral World characters +1 piercing when using primitive weapons.</p>
-<p><strong>Choose one:</strong> +1 S or +1 T, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Strength or +1 Toughness, to a max of +2.</p>
 <h3>Forge World</h3>
 <p>Manufactorums cover the landscape.</p>
 <p><strong>World Move:</strong> Forge World characters replace one of their d6s with a d8 when rolling Tech-Use.</p>
-<p><strong>Choose one:</strong> +1 Int or +1 T, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Intelligence or +1 Toughness, to a max of +2.</p>
 <h3>Highborn</h3>
 <p>You are the member of a noble house, or powerful family.</p>
 <p><strong>World Move:</strong> Highborn characters gain +1 to any Defy Danger or Parley rolls that involve talking to members of the Imperium.</p>
-<p><strong>Choose one:</strong> +1 Fel or +1 Int, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Fellowship or +1 Intelligence, to a max of +2.</p>
 <h3>Hive World</h3>
 <p>Hab blocks and cityscape cover much of this planet.</p>
 <p><strong>World Move:</strong> Hive World characters gain +1 to any Defy Danger rolls when moving through crowds.</p>
-<p><strong>Choose one:</strong> +1 Ag or +1 Per, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Agility or +1 Perception, to a max of +2.</p>
 <h3>Shrine World</h3>
 <p>This world is dedicated to the veneration of the God-Emperor and his saints.</p>
 <p><strong>World Move:</strong> Shrine World characters can reroll any double 1s result once per session.</p>
-<p><strong>Choose one:</strong> +1 Fel or +1 WS, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Fellowship or +1 Willpower, to a max of +2.</p>
 <h3>Voidborn</h3>
 <p>You were born in the cold of space aboard a ship.</p>
 <p><strong>World Move:</strong> Voidborn gain +1 to any rolls to resist warp energy.</p>
-<p><strong>Choose one:</strong> +1 Int or +1 WS, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Intelligence or +1 Willpower, to a max of +2.</p>
 
 <h2>Modify Your Stats</h2>
 <p>Change one of your stats based on the bonus offered by your Home World.</p>
 
 <h2>Set Your Max Wounds</h2>
-<p>Your max wounds is equal to 4. If your T is positive, add that as well.</p>
+<p>Your max wounds is equal to 4. If your Toughness is positive, add that as well.</p>
 
 <h2>Choose a Name</h2>
 <p>Select a name for your character. Make something up on your own or roll on the tables below to inspire you.</p>
@@ -73,6 +78,12 @@
 </thead><tbody>
 <tr><td>1</td><td>Gaius</td><td>Ellyn</td><td>Shiv</td></tr>
 <tr><td>2</td><td>Bragg</td><td>Fernanda</td><td>Grimshine</td></tr>
+<tr><td>3</td><td>Mikkal</td><td>Xandra</td><td>Bullet</td></tr>
+<tr><td>4</td><td>Ibram</td><td>Nelia</td><td>Tooth</td></tr>
+<tr><td>5</td><td>Kade</td><td>Lirri</td><td>Krak</td></tr>
+<tr><td>6</td><td>Othol</td><td>Dahlia</td><td>Dusk</td></tr>
+<tr><td>7</td><td>Eli</td><td>Fenra</td><td>Carver</td></tr>
+<tr><td>8</td><td>Lambdus</td><td>Rhia</td><td>Spider</td></tr>
 </tbody></table>
 
 <blockquote class="first-person">I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.</blockquote></Root>

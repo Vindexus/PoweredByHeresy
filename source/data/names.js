@@ -1,6 +1,6 @@
-var maleNames = ['Gaius', 'Bragg']
-var femaleNames = ['Ellyn', 'Fernanda']
-var nicknames = ['Shiv', 'Grimshine']
+var maleNames = ['Gaius', 'Bragg', 'Mikkal', 'Ibram', 'Kade', 'Othol', 'Eli', 'Lambdus']
+var femaleNames = ['Ellyn', 'Fernanda', 'Xandra', 'Nelia', 'Lirri', 'Dahlia', 'Fenra', 'Rhia']
+var nicknames = ['Shiv', 'Grimshine', 'Bullet', 'Tooth', 'Krak', 'Dusk', 'Carver', 'Spider']
 var table = []
 
 for(var i = 0; i < maleNames.length; i++) {
@@ -11,8 +11,6 @@ for(var i = 0; i < maleNames.length; i++) {
     nickname: nicknames[i]
   })
 }
-
-console.log('TABLE', table)
 
 module.exports = {
   male: maleNames,
