@@ -48,7 +48,7 @@ Your Home World will give one special move and allow you to increase one of your
 
 Planet where everything wants to kill you.
 
-**World Move:** Death World characters gain +1 on all Last Breath rolls.
+**World Move:** Death World characters gain +1 on all [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls.
 
 **Choose one:** +1 Agility or +1 Toughness, to a max of +2.
 
@@ -72,7 +72,7 @@ Manufactorums cover the landscape.
 
 You are the member of a noble house, or powerful family.
 
-**World Move:** Highborn characters gain +1 to any Defy Danger or Parley rolls that involve talking to members of the Imperium.
+**World Move:** Highborn characters gain +1 to any [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) or Parley rolls that involve talking to members of the Imperium.
 
 **Choose one:** +1 Fellowship or +1 Intelligence, to a max of +2.
 
@@ -80,7 +80,7 @@ You are the member of a noble house, or powerful family.
 
 Hab blocks and cityscape cover much of this planet.
 
-**World Move:** Hive World characters gain +1 to any Last Breath rolls when moving through crowds.
+**World Move:** Hive World characters gain +1 to any [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls when moving through crowds.
 
 **Choose one:** +1 Agility or +1 Perception, to a max of +2.
 

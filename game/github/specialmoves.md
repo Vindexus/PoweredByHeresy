@@ -12,7 +12,7 @@ When **you're dying** you see the darkness cloud your vision as you drift into d
 
 When you **reach the end of a session**, choose one of your bonds that you feel is resolved (completely explored, no longer relevant, or otherwise). Ask the player of the character you have the bond with if they agree. If they do, mark XP and write a new bond with whomever you wish.
 
-If you invoked your background with the This I Know move this session, mark XP.
+If you invoked your background with the [This I Know](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/moves.md#this-i-know) move this session, mark XP.
 
 Once bonds have been updated look at your alignment or drive. If you fulfilled that alignment or drive at least once this session, mark XP. Then answer these three questions as a group:
 
