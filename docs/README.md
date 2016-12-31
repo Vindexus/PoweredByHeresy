@@ -1,30 +1,20 @@
 # About this Project
-PbH is an open source game. These docs are a work in progress.
+These are the documents for those interested in helping with writing the game and its codebase.
 
-## The Big Three
-Read about the 3 questions in [this blog post](https://stockade.wordpress.com/2009/09/28/the-3-questions-1/). They aren't meant to be questions whose answers you can turn to when unsure about changes you want to add.
+## How It Works
+The game is a combination of game text and NodeJS code. Game text is written, then run through compilers, and outputs readable files.
 
-### What is the game about?
-Exploring a specific region of the Warhammer 40,000 universe in your search for heresy, and wiping it out when you find it.
+## How To Help
 
-### How does your game do this?
+### 1. Making Small Changes
+You can make small text changes directly on GitHub by editing files in the [source folder](https://github.com/Vindexus/PoweredByHeresy/tree/master/source). Here's what's in there
 
-### How does your game encourage/reward this?
+ - [Pages](https://github.com/Vindexus/PoweredByHeresy/tree/master/source/pages): Game text is in these pages, and they reference game data.
+ - [Data](https://github.com/Vindexus/PoweredByHeresy/tree/master/source/data): Little pieces of game data, like moves and items, are stored here to be inserted into the pages.
+ - [Partials](https://github.com/Vindexus/PoweredByHeresy/tree/master/source/partials): Small templates for things in pages that crop up a lot, like moves.
 
-## Goals
-Here are some goals I'm spitballing.
+### 2. Making Large Changes
+If you want to make large changes, you'll probably need to get the entire project with its code up and running locally.
 
- - Crunchier than Dungeon World
- - Less crunchy than Dark Heresy
- - Health should matter more than Dungeon World
- - Very modular. Easy to add in supplements of new enemies, 
- - Investigative. Finding clues is important.
- - Build the sector. The GM and the players should find out about the cultures of the places they visit as they play, together.
-
-## How to Help
-
-### 1. Write on GitHub
-You can make text changes on GitHub directly and create pull requests.
-
-### 2. Run the Code Locally
-If you want to get a better sense of what your changes will do, you should run the project locally.
+### 3. Making Code Changes
+The project's compilers are based on two NodeJS modules that I'll add links to later.
