@@ -30,11 +30,11 @@ This document will describe the technical process that combines `game data` with
     | Several compilers that take in page files and     |
     | insert the game data and output readable files.   |
     -----------------------------------------------------
-        ||                ||                 ||
-        || write          || write           || write
-        \/                \/                 \/
-    ------------   -----------------  ----------------
-    |MARKDOWN  |   | HTML          |  | XML          |
-    |For GitHub|   | For a website |  | For InDesign |
-    ------------   -----------------  ----------------
+        ||                  ||                 ||
+        || write            || write           || write
+        \/                  \/                 \/
+    --------------   -----------------   ----------------
+    | MARKDOWN   |   | HTML          |   | XML          |
+    | For GitHub |   | For a website |   | For InDesign |
+    --------------   -----------------   ----------------
     
