@@ -18,7 +18,7 @@ This document will describe the technical process that combines `game data` with
                || write               
                \/                      
     --------------------------    ------------------------------------------------------------
-    | JSON FILE              |    | PAGES                                                    |
+    | JSON FILE              |    | PAGE FILES                                               |
     | Contains all game data.|    | XML files that contain game text and reference game data.|
     -------------------------     | Ex: character creation, introduction, GM section         |
                ||                 ------------------------------------------------------------
