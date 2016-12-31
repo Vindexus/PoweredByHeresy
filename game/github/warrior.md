@@ -14,3 +14,7 @@ Each battle is different and requires a different approach. At the start of each
 *   Precise: While you remain focused on a single target, you gain +2 piercing against them
 
 If you change tactics you lose the benefit of the one you had chosen.
+
+### Armored
+
+You ignore the Clumsy tag on any armor you wear.

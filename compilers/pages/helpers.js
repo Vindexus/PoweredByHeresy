@@ -15,6 +15,19 @@ module.exports = function (Handlebars, gameData) {
     return stat
   })
 
+  Handlebars.registerHelper('getTag', function (options) {
+    var err = {name: 'ERROR in getTag'}
+    if(!options) {
+      return err
+    }
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var tag = gameData.tags[key]
+    if(!tag) {
+      return err
+    }
+    return tag
+  })
+
   Handlebars.registerHelper('getSpecialty', function (options) {
     var err = {name: 'ERROR in getspecialty'}
     if(!options) {
@@ -91,6 +104,11 @@ module.exports = function (Handlebars, gameData) {
   Handlebars.registerHelper('statistic', function(options) {
     var stat = Handlebars.helpers.getStatistic(options)
     return new Handlebars.SafeString(stat.name)
+  })
+
+  Handlebars.registerHelper('tag', function(options) {
+    var tag = Handlebars.helpers.getTag(options)
+    return new Handlebars.SafeString(tag.name)
   })
 
   Handlebars.registerHelper('specialty', function(options) {

@@ -19,6 +19,12 @@ parser.registerHelper(function (Handlebars, gameData) {
   })
 })
 parser.registerHelper(function (Handlebars, gameData) {
+  Handlebars.registerHelper('tag', function(options) {
+    var tag = Handlebars.helpers.getTag(options)
+    return new Handlebars.SafeString('<abbr title="' + tag.description + '">' + tag.name + '</abbr>')
+  })
+})
+parser.registerHelper(function (Handlebars, gameData) {
   Handlebars.registerHelper('stat', function(options) {
     var stat = Handlebars.helpers.getStatistic(options)
     return new Handlebars.SafeString('<abbr title="' + stat.name + ': ' + stat.description + '">' + stat.abbr + '</abbr>')

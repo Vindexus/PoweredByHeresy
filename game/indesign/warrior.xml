@@ -9,4 +9,5 @@
 <li>Reactive: Whenever you are attacked, you can immediately respond and take +1 forward</li>
 <li>Reckless: You deal +1d4 damage and take +1d4 damage</li>
 <li>Precise: While you remain focused on a single target, you gain +2 piercing against them</li></ul>
-<p>If you change tactics you lose the benefit of the one you had chosen.</p></move></Root>
+<p>If you change tactics you lose the benefit of the one you had chosen.</p></move><move><h3>Armored</h3>
+<p>You ignore the Clumsy tag on any armor you wear.</p></move></Root>

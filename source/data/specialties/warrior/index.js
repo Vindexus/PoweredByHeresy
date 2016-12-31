@@ -4,6 +4,6 @@ module.exports = {
   description: 'Good at fighting',
   starting_moves: {
     points_to: 'moves',
-    list: ['tactical_advantage']
+    list: ['tactical_advantage', 'armored']
   }
 }
