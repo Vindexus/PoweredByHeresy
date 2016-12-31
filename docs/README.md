@@ -4,6 +4,8 @@ These are the documents for those interested in helping with writing the game an
 ## How It Works
 The game is a combination of game text and NodeJS code. Game text is written, then run through compilers, and outputs readable files.
 
+Read the [full details here](https://vindexus.github.io/PoweredByHeresy/workflow).
+
 ## How To Help
 
 ### 1. Making Small Changes
@@ -15,6 +17,8 @@ You can make small text changes directly on GitHub by editing files in the [sour
 
 ### 2. Making Large Changes
 If you want to make large changes, you'll probably need to get the entire project with its code up and running locally.
+
+Read [how to set up the project here](https://vindexus.github.io/PoweredByHeresy/workflow/runningtheproject).
 
 ### 3. Making Code Changes
 The project's compilers are based on two NodeJS modules that I'll add links to later.
