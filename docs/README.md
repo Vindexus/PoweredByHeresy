@@ -1,3 +1,6 @@
+|[Home](./)|[How It Works](./workflow)|[Running the Project](./runninghtheproject)|
+|:--|:--|:--|
+
 # About this Project
 These are the documents for those interested in helping with writing the game and its codebase.
 
