@@ -1,39 +1,26 @@
 module.exports = function (Handlebars, gameData) {
-  Handlebars.registerHelper('statistic', function(options) {
-    if(!options) {
-      return ''
-    }
-    var key = typeof(options) == 'string' ? options : options.fn(this)
-    var stat = gameData.stats[key]
-    if(!stat) {
-      console.error('Failed to load stat: ' + key)
-      return 'ERROR'
-    }
-    return new Handlebars.SafeString(stat.name)
-  })
-
-  Handlebars.registerHelper('stat', function(options) {
-    if(!options) {
-      return ''
-    }
-    var key = typeof(options) == 'string' ? options : options.fn(this)
-    var stat = gameData.stats[key]
-    if(!stat) {
-      console.error('Failed to load stat: ' + key)
-      return 'ERROR'
-    }
-    return new Handlebars.SafeString(stat.abbr)
-  })
-
-  /* 
-  Returns the name of a move 
-  This can be overridden for certain compilers to change it to a link, or add data to its attributes
+  /*
+  These helpers are 
   */
-  Handlebars.registerHelper('move', function(options) {
+  Handlebars.registerHelper('getStatistic', function (options) {
+    var err = {name: 'ERROR in getStatistic'}
     if(!options) {
-      return ''
+      return err
     }
-    //TODO: this code is duplciated in the move helper in html.js
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var stat = gameData.stats[key]
+    if(!stat) {
+      return err
+    }
+    return stat
+  })
+
+  Handlebars.registerHelper('getMove', function (options) {
+    var err = {name: 'ERROR'}
+    if(!options) {
+      err.name += '! options'
+      return err
+    }
     var move
     if(typeof(options) == 'string') {
       move = gameData.moves[options]
@@ -47,9 +34,45 @@ module.exports = function (Handlebars, gameData) {
       }
     }
     if(!move) {
-      console.error('Failed to load move:')
-      return 'ERROR'
+      console.error('Failed to load move with: ' + options)
+      return err
     }
+    var page = 'moves'
+    var specialKeys = gameData.specialmoves.map(function (m) {
+      return m.key
+    })
+    var basicKeys = gameData.basicmoves.map(function (m) {
+      return m.key
+    })
+    if(specialKeys.indexOf(move.key) >= 0) {
+      move.special = true
+    }
+    else if(basicKeys.indexOf(move.key) >= 0) {
+      move.basic = true
+    }
+    return move
+  })
+
+  /********************
+  These are for use in the actual templates.
+  *********************/
+
+  Handlebars.registerHelper('statistic', function(options) {
+    var stat = Handlebars.helpers.getStatistic(options)
+    return new Handlebars.SafeString(stat.name)
+  })
+
+  Handlebars.registerHelper('stat', function(options) {
+    var stat = Handlebars.helpers.getStatistic(options)
+    return new Handlebars.SafeString(stat.abbr)
+  })
+
+  /* 
+  Returns the name of a move 
+  This can be overridden for certain compilers to change it to a link, or add data to its attributes
+  */
+  Handlebars.registerHelper('move', function(options) {
+    var move = Handlebars.helpers.getMove(options)
     return new Handlebars.SafeString(move.name)
   })
 

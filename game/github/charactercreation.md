@@ -48,9 +48,9 @@ Your Home World will give one special move and allow you to increase one of your
 
 Planet where everything wants to kill you.
 
-**World Move:** Death World characters gain +1 on all [Last Breathsd](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breathsd) rolls.
+**World Move:** Death World characters gain +1 on all [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls.
 
-**Choose one:** +1 Agility or +1 Toughness, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Feral World
 
@@ -58,7 +58,7 @@ A planet with very little technology.
 
 **World Move:** Feral World characters +1 piercing when using primitive weapons.
 
-**Choose one:** +1 Strength or +1 Toughness, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Forge World
 
@@ -66,7 +66,7 @@ Manufactorums cover the landscape.
 
 **World Move:** Forge World characters replace one of their d6s with a d8 when rolling Tech-Use.
 
-**Choose one:** +1 Intelligence or +1 Toughness, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Highborn
 
@@ -74,15 +74,15 @@ You are the member of a noble house, or powerful family.
 
 **World Move:** Highborn characters gain +1 to any [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) or Parley rolls that involve talking to members of the Imperium.
 
-**Choose one:** +1 Fellowship or +1 Intelligence, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Hive World
 
 Hab blocks and cityscape cover much of this planet.
 
-**World Move:** Hive World characters gain +1 to any [Last Breathsd](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breathsd) rolls when moving through crowds.
+**World Move:** Hive World characters gain +1 to any [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls when moving through crowds.
 
-**Choose one:** +1 Agility or +1 Perception, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Shrine World
 
@@ -90,7 +90,7 @@ This world is dedicated to the veneration of the God-Emperor and his saints.
 
 **World Move:** Shrine World characters can reroll any double 1s result once per session.
 
-**Choose one:** +1 Fellowship or +1 Willpower, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ### Voidborn
 
@@ -98,7 +98,7 @@ You were born in the cold of space aboard a ship.
 
 **World Move:** Voidborn gain +1 to any rolls to resist warp energy.
 
-**Choose one:** +1 Intelligence or +1 Willpower, to a max of +2.
+**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
 
 ## Modify Your Stats
 
