@@ -45,8 +45,4 @@ module.exports = {
     description: 'How much people like you.'
   },
   starting: ['-1', '-1', '0', '0', '0', '+1', '+1', '+2'],
-  list: {
-    points_to: 'stats',
-    list: ['ws', 'bs', 'str', 't', 'ag', 'int', 'per', 'wp', 'fel']
-  }
 }

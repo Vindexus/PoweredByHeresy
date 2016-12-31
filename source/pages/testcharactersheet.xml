@@ -1,0 +1,23 @@
+<h1>Character Sheet</h1>
+<table class="table">
+  <thead>
+    <tr>
+      {{#each statistics}}
+      <th>
+        <strong>{{abbr}}</strong><br />
+        <small>{{name}}</strong>
+      </th>
+      {{/each}}
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {{#each statistics}}
+      <td>
+        <input type="text" size="2" />
+      </td>
+      {{/each}}
+    </tr>
+  </tbody>
+</table>
+{{>move tactical_advantage}}

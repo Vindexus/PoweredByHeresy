@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/"><h1>Character Sheet</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        <strong>WS</strong><br />
+        <small>Weapon Skill</strong>
+      </th>
+      <th>
+        <strong>BS</strong><br />
+        <small>Ballistic Skill</strong>
+      </th>
+      <th>
+        <strong>S</strong><br />
+        <small>Strength</strong>
+      </th>
+      <th>
+        <strong>T</strong><br />
+        <small>Toughness</strong>
+      </th>
+      <th>
+        <strong>Ag</strong><br />
+        <small>Agility</strong>
+      </th>
+      <th>
+        <strong>Int</strong><br />
+        <small>Intelligence</strong>
+      </th>
+      <th>
+        <strong>Per</strong><br />
+        <small>Perception</strong>
+      </th>
+      <th>
+        <strong>WS</strong><br />
+        <small>Willpower</strong>
+      </th>
+      <th>
+        <strong>Fel</strong><br />
+        <small>Fellowship</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+      <td>
+        <input type="text" size="2" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+<move><h3>Tactical Advantage</h3>
+<p>Each battle is different and requires a different approach. At the start of each battle, decide which tactic you are actively employing.</p>
+<ul><li>Defensive: As long as you don't attempt to gain ground, you gain +1 to all Defy Danger rolls</li>
+<li>Reactive: Whenever you are attacked, you can immediately respond and take +1 forward</li>
+<li>Reckless: You deal +1d4 damage and take +1d4 damage</li>
+<li>Precise: While you remain focused on a single target, you gain +2 piercing against them</li></ul>
+<p>If you change tactics you lose the benefit of the one you had chosen.</p></move></Root>
