@@ -1,0 +1,7 @@
+<h1>Specialties</h1>
+<p>Specialties and groups of related moves that empower an Adept with specific skills.</p>
+
+{{#each specialties_list}}
+<h2>{{specialty key}}</h2>
+<p>{{description}}</p>
+{{/each}}

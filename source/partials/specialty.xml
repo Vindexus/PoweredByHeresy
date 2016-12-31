@@ -1,0 +1,7 @@
+<h1>{{name}}</h1>
+<p>{{description}}</p>
+
+<h2>Starting Moves</h2>
+{{#each starting_moves}}
+{{>move .}}
+{{/each}}

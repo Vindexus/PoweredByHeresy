@@ -25,10 +25,8 @@ parser.registerHelper(function (Handlebars, gameData) {
   })
 })
 
-//Override the 'move' helper so we can make it link
 parser.registerHelper(function (Handlebars, gameData) {
   Handlebars.registerHelper('move', function(options) {
-    console.log('OPTIONS IN MOVE IN HTML', options)
     var move = Handlebars.helpers.getMove(options)
     var base = 'moves'
     if(move.special) {
@@ -38,6 +36,14 @@ parser.registerHelper(function (Handlebars, gameData) {
       page = 'basicmoves'
     }
     return new Handlebars.SafeString('<a href="' + page + '.html#' + slugify(move.name, {lower: true}) + '">' + move.name + '</a>')
+  })
+})
+
+parser.registerHelper(function (Handlebars, gameData) {
+  Handlebars.registerHelper('specialty', function(options) {
+    var specialty = Handlebars.helpers.getSpecialty(options)
+    console.log('specccccc')
+    return new Handlebars.SafeString('<a href="' + specialty.key + '.html">' + specialty.name + '</a>')
   })
 })
 parser.registerPackagedStep('xml2html', c.htmlStepConfig)

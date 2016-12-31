@@ -1,6 +1,6 @@
 module.exports = function (Handlebars, gameData) {
   /*
-  These helpers are 
+  These helpers are for use in other helpers
   */
   Handlebars.registerHelper('getStatistic', function (options) {
     var err = {name: 'ERROR in getStatistic'}
@@ -13,6 +13,37 @@ module.exports = function (Handlebars, gameData) {
       return err
     }
     return stat
+  })
+
+  Handlebars.registerHelper('getSpecialty', function (options) {
+    var err = {name: 'ERROR in getspecialty'}
+    if(!options) {
+      console.err('options in getspecialty', options)
+      return err
+    }
+    var specialty
+    var method
+    if(typeof(options) == 'string') {
+      specialty = gameData.specialties[options]
+      method = 'string'
+    }
+    else if(typeof(options) == 'object') {
+      if(options.fn) {
+        var key = options.fn(this)
+        console.log('key', key)
+        specialty = gameData.specialties[key]
+        method = 'options.fn'
+      }
+      else {
+        specialty = options
+        method = 'options is object'
+      }
+    }
+    if(!specialty) {
+      console.error('Failed to load specialty with ' + method + ': ' + JSON.stringify(options).substr(0, 50))
+      return err
+    }
+    return specialty
   })
 
   Handlebars.registerHelper('getMove', function (options) {
@@ -60,6 +91,11 @@ module.exports = function (Handlebars, gameData) {
   Handlebars.registerHelper('statistic', function(options) {
     var stat = Handlebars.helpers.getStatistic(options)
     return new Handlebars.SafeString(stat.name)
+  })
+
+  Handlebars.registerHelper('specialty', function(options) {
+    var specialty = Handlebars.helpers.getSpecialty(options)
+    return new Handlebars.SafeString(specialty.name)
   })
 
   Handlebars.registerHelper('stat', function(options) {
