@@ -1,5 +1,6 @@
-|[Home](./)|[How It Works](./workflow)|[Running the Project](./runninghtheproject)|
+|[Home](https://vindexus.github.io/PoweredByHeresy/)|[How It Works](https://vindexus.github.io/PoweredByHeresy/)|[Running the Project](https://vindexus.github.io/PoweredByHeresy/)|
 |:--|:--|:--|
+|||
 
 # About this Project
 These are the documents for those interested in helping with writing the game and its codebase.
