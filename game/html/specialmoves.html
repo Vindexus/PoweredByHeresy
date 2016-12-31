@@ -1,4 +1,41 @@
-<html><head><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head><body><div class="container"><head></head><h1 id="special-moves">Special Moves</h1>
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Powered by Heresy</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/introduction.html">Introduction</a></li>
+        <li><a href="/charactercreation.html">Character Creation</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moves <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./basicmoves.html">Basic Moves</a></li>
+              <li><a href="./specialmoves.html">Special Moves</a></li>
+            </ul>
+          </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Docs</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav><head></head><h1 id="special-moves">Special Moves</h1>
 <div class="move"><h3 id="this-i-know">This I Know</h3>
 <p>Once per session, you may <strong>invoke your Background to reroll a move</strong>. To invoke your Background you must describe how your character's experience or a specific event related to your Background would have helped you in the current situation. The GM and the players at the table have to agree, so the more details the better.</p></div><div class="move"><h3 id="end-of-session">End of Session</h3>
 <p>When you <strong>reach the end of a session</strong>, choose one of your bonds that you feel is resolved (completely explored, no longer relevant, or otherwise). Ask the player of the character you have the bond with if they agree. If they do, mark XP and write a new bond with whomever you wish.</p>
@@ -9,10 +46,16 @@
 <li>Did we overcome a notable enemy?</li>
 <li>Did we acquire a notable artifact that will be valuable to the Inquisition?</li>
 </ul>
-<p>For each "yes" answer everyone marks XP.</p></div><div class="move"><h3 id="last-breath">Last Breath</h3>
+<p>For each "yes" answer everyone marks XP.</p></div><div class="move"><h3 id="recover">Recover</h3>
+<p>When you do nothing but rest in comfort and safety after a day of rest you recover half your max wounds.</p></div><div class="move"><h3 id="last-breath">Last Breath</h3>
 <p>When <strong>you're dying</strong> you see the darkness cloud your vision as you drift into death. Describe what thoughts or prayers spur you on and roll (don't add any stats).</p>
 <ul>
 <li>On a 10+ you've defied the odds, and barely cling to life.</li>
 <li>On a 7-9 you live, but your brush with death takes its toll. Describe the lasting effects your body or mind take and the GM will tell you which of your statistics you must reduce permanently by 1.</li>
 <li>On a 6-, you join the seemingly endless stream of souls to have been lost under the rule of the Imperium.</li>
-</ul></div></div></body></html>
+</ul></div></div>
+<script type="text/javascript">
+$('.dropdown-toggle').dropdown()
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "nodemon -e xml,js,json,md --watch *.js --watch ../../source/pages --watch ../../source/partials --watch ../../game/game_data.json index.js"
+    "watch": "nodemon -e xml,js,json,md,html --watch *.js --watch ../../source/pages --watch ../../source/html --watch ../../source/partials --watch ../../game/game_data.json index.js"
   },
   "dependencies": {
     "jquery": "^3.1.1",

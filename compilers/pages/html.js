@@ -3,12 +3,13 @@ var parser                    = new Parser()
 var path                      = require('path')
 var config                    = require('./config')
 var slugify                   = require('slug')
+var fs                        = require('fs')
 
 var c = JSON.parse(JSON.stringify(config))
 c.outputExtension = 'html'
 c.outputDir = path.join(__dirname, '..', '..', 'game', 'html')
-c.header = '<html><head><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head><body><div class="container">'
-c.footer = "</div></body></html>"
+c.header = fs.readFileSync(path.join(__dirname, '..', '..', 'source', 'html', 'header.html'), 'utf8')
+c.footer = fs.readFileSync(path.join(__dirname, '..', '..', 'source', 'html', 'footer.html'), 'utf8')
 
 parser.init(c)
 parser.registerHelper(function (Handlebars, gameData) {

@@ -1,4 +1,41 @@
-<html><head><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></head><body><div class="container"><head></head><h1 id="basic-moves">Basic Moves</h1>
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Powered by Heresy</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/introduction.html">Introduction</a></li>
+        <li><a href="/charactercreation.html">Character Creation</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moves <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./basicmoves.html">Basic Moves</a></li>
+              <li><a href="./specialmoves.html">Special Moves</a></li>
+            </ul>
+          </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Docs</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav><head></head><h1 id="basic-moves">Basic Moves</h1>
 <div class="move"><h3 id="fire-for-effect">Fire for Effect</h3>
 <p>When you <strong>fire your ranged weapon to deal damage</strong>, roll+<abbr title="Ballistic Skill: How well you can shoot.">BS</abbr> and expend a use of your weapon. On a 10+ deal your damage. At your option you may expend another use of your weapon to add +1d4 damage. On a 7-9 you deal your damage and choose one:</p>
 <ul>
@@ -33,4 +70,9 @@
 <p>When you <strong>take a moment to reload your weapon</strong> reset your weapon's uses and expend 1 ammo.</p>
 <blockquote>
   <p>Once a character has expended all the uses of their weapon they need to reload. This isn't assumed, the players have to explicitly say they take a moment to reload. How long it takes is up to the GM, and reloading certainly counts as a prime opportunity for a GM move.</p>
-</blockquote></div></div></body></html>
+</blockquote></div></div>
+<script type="text/javascript">
+$('.dropdown-toggle').dropdown()
+</script>
+</body>
+</html>

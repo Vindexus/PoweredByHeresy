@@ -18,6 +18,10 @@ Once bonds have been updated look at your alignment or drive. If you fulfilled t
 
 For each "yes" answer everyone marks XP.
 
+### Recover
+
+When you do nothing but rest in comfort and safety after a day of rest you recover half your max wounds.
+
 ### Last Breath
 
 When **you're dying** you see the darkness cloud your vision as you drift into death. Describe what thoughts or prayers spur you on and roll (don't add any stats).
