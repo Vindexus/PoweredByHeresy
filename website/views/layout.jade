@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title= title
+    link(href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet")
+    script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
+    link(href="/stylesheets/style.css" rel="stylesheet")
+  body
+    .navbar.navbar-fixed-top
+      .container
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='/') Heresy World
+        .nav-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/introduction') Introduction
+            li
+              a(href='/') Playing the Game
+            li.dropdown
+              a.dropdown-toggle(href='/moves', data-toggle='dropdown')
+                | Moves 
+                b.caret
+              ul.dropdown-menu
+                li
+                  a(href='/basic') Basic Moves
+                li
+                  a(href='/special') Special Moves
+            li.dropdown
+              a.dropdown-toggle(href='/moves', data-toggle='dropdown')
+                | Specialties 
+                b.caret
+              ul.dropdown-menu
+                li
+                  a(href='/warrior') Warrior
+                li
+                  a(href='/assassin') Assassin
+          ul.nav.navbar-nav.pull-right
+            li
+              a(href='https://github.com/Vindexus/PoweredByHeresy' target="_blank") GitHub
+            li
+              a(href='https://github.com/Vindexus/PoweredByHeresy/tree/master/docs' target="_blank") Docs
+    .container
+      .row
+        .col-sm-2
+          ul#sidebar.nav.nav-stacked.affix
+            li
+              a(href='#') The Next Web
+            li
+              a(href='#') Mashable
+            li
+              a(href='#') TechCrunch
+            li
+              a(href='#') GitHub
+            li
+              a(href='#') In1
+            li
+              a(href='#') TechMeMe
+        .col-sm-10
+          block content
