@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Root xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/"><h1>Character Sheet</h1>
+<div>
+  <strong>Character name:</strong> <span class="field"></span>
+  <strong>Background:</strong> <span class="field"></span>
+  <strong>Home World:</strong> <span class="field"></span>
+</div>
 <table class="table">
   <thead>
     <tr>
@@ -73,10 +78,14 @@
     </tr>
   </tbody>
 </table>
+
+<h2>Starting Moves</h2>
 <move><h3>Tactical Advantage</h3>
 <p>Each battle is different and requires a different approach. At the start of each battle, decide which tactic you are actively employing.</p>
 <ul><li>Defensive: As long as you don't attempt to gain ground, you gain +1 to all Defy Danger rolls</li>
 <li>Reactive: Whenever you are attacked, you can immediately respond and take +1 forward</li>
 <li>Reckless: You deal +1d4 damage and take +1d4 damage</li>
 <li>Precise: While you remain focused on a single target, you gain +2 piercing against them</li></ul>
-<p>If you change tactics you lose the benefit of the one you had chosen.</p></move></Root>
+<p>If you change tactics you lose the benefit of the one you had chosen.</p></move><move><h3>Armored</h3>
+<p>You ignore the Clumsy tag on any armor you wear.</p></move>
+<h2>Advanced Moves</h2></Root>

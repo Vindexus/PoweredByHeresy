@@ -1,4 +1,9 @@
 <h1>Character Sheet</h1>
+<div>
+  <strong>Character name:</strong> <span class="field"></span>
+  <strong>Background:</strong> <span class="field"></span>
+  <strong>Home World:</strong> <span class="field"></span>
+</div>
 <table class="table">
   <thead>
     <tr>
@@ -20,4 +25,9 @@
     </tr>
   </tbody>
 </table>
+
+<h2>Starting Moves</h2>
 {{>move tactical_advantage}}
+{{>move armored}}
+
+<h2>Advanced Moves</h2>
