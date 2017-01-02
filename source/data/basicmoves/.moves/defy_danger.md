@@ -1,8 +1,8 @@
 # Defy Danger 
 When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it
 
- - by using martial arts, +{{stat 'ws'}}
- - by using a gun, +{{stat 'bs'}}
+ - by using skill in melee attacks, +{{stat 'ws'}}
+ - by using skill with ranged weapons, +{{stat 'bs'}}
  - by powering through, +{{stat 'str'}}
  - by getting out of the way or acting fast, +{{stat 'ag'}}
  - by enduring, +{{stat 't'}}

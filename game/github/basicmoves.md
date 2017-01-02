@@ -9,9 +9,9 @@ When you **fire your ranged weapon to deal damage**, roll+BS and expend a use of
 *   You need to take some more shots, expend another use of your weapon
 *   You have to place yourself or a teammate in danger, the GM will tell you how
 
-> Fire for Effect is your go-to move when a character is shooting to kill. It covers drawing, cocking, aiming, and shooting your weapon. Firing your weapon doesn't mean squeezing off a single shot, it means shooting for a few seconds. That can mean a single shot, or a whole flurry of them. Either way, it's a single use of the weapon. Leave the exact number of shots to the fiction and let the uses dictate when they run low.
-> 
-> If you're using a weapon that doesn't have enough uses you can't take the bonus damage on the 10+ or the "expend another use" option on a 7-9.
+Fire for Effect is your go-to move when a character is shooting to kill. It covers drawing, cocking, aiming, and shooting your weapon. Firing your weapon doesn't mean squeezing off a single shot, it means shooting for a few seconds. That can mean a single shot, or a whole flurry of them. Either way, it's a single use of the weapon. Leave the exact number of shots to the fiction and let the uses dictate when they run low.
+
+If you're using a weapon that doesn't have enough uses you can't take the bonus damage on the 10+ or the "expend another use" option on a 7-9.
 
 ### Hack and Slash
 
@@ -21,8 +21,8 @@ When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage t
 
 When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it
 
-*   by using martial arts, +WS
-*   by using a gun, +BS
+*   by using skill in melee attacks, +WS
+*   by using skill with ranged weapons, +BS
 *   by powering through, +S
 *   by getting out of the way or acting fast, +Ag
 *   by enduring, +T
@@ -32,6 +32,19 @@ When you act despite an imminent threat or suffer a calamity, say how you deal w
 *   noticing something, +Per
 
 On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.
+
+### Discern Realities
+
+When you closely study a situation or person, roll+Wis. ✴On a 10+, ask the GM 3 questions from the list below. ✴On a 7–9, ask 1.
+
+Either way, take +1 forward when acting on the answers.
+
+*   What happened here recently?
+*   What is about to happen?
+*   What should I be on the lookout for?
+*   What here is useful or valuable to me?
+*   Who’s really in control here?
+*   What here is not what it appears to be?
 
 ### Defend
 

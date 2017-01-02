@@ -1,2 +1,4 @@
 <move><h3>{{name}}</h3>
-{{{description}}}</move>
+<move-description>{{{description}}}</move-description>
+{{#explanation}}<move-explanation>{{{.}}}</move-explanation>{{/explanation}}
+</move>
