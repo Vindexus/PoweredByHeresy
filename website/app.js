@@ -15,6 +15,21 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.get('/:file', function (req, res, next) {
+  var page = req.params.file
+  var filePath = path.join(__dirname, 'views', 'exported', page + '.html')
+  var html = fs.readFileSync(filePath)
+  res.locals.html = html
+  res.locals.page = page
+  res.locals.main_menu = menus.main_menu
+
+  if(menus.submenus.hasOwnProperty(page)) {
+    res.locals.submenu = menus.submenus[page]
+  }
+
+  res.render('file')
+})
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -25,20 +40,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 
-app.get('/:file', function (req, res, next) {
-  var filename = req.params.file
-  var filePath = path.join(__dirname, 'views', 'exported', filename + '.html')
-  var html = fs.readFileSync(filePath)
-  res.locals.html = html
-  res.locals.filename = filename
 
-  if(menus.submenus.hasOwnProperty(filename)) {
-    console.log('submenu exists')
-    res.locals.submenu = menus.submenus[filename]
-  }
-
-  res.render('file')
-})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

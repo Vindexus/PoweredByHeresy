@@ -1,4 +1,18 @@
 module.exports = {
+  main_menu: [{
+      label: 'Home',
+      key: '',
+      url: '/'
+    }, {
+      label: 'Introduction',
+      key: 'introduction',
+      url: '/introduction'
+    }, {
+      label: 'Playing the Game',
+      key: 'playingthegame',
+      url: '/playingthegame'
+    }
+  ],
   submenus: {
     playingthegame: {
       'playing-the-game': {
