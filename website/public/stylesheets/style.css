@@ -23,3 +23,10 @@ body {
       position:fixed;
   }
 }
+
+h1::before, h2::before, h3::before {
+  content:"";
+  display:block;
+  height:60px; /* fixed header height*/
+  margin:-60px 0 0; /* negative fixed header height */
+}

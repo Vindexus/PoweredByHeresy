@@ -19,16 +19,16 @@ html
             li
               a(href='/introduction') Introduction
             li
-              a(href='/') Playing the Game
+              a(href='/playingthegame') Playing the Game
             li.dropdown
               a.dropdown-toggle(href='/moves', data-toggle='dropdown')
                 | Moves 
                 b.caret
               ul.dropdown-menu
                 li
-                  a(href='/basic') Basic Moves
+                  a(href='/basicmoves') Basic Moves
                 li
-                  a(href='/special') Special Moves
+                  a(href='/specialmoves') Special Moves
             li.dropdown
               a.dropdown-toggle(href='/moves', data-toggle='dropdown')
                 | Specialties 
@@ -45,19 +45,11 @@ html
               a(href='https://github.com/Vindexus/PoweredByHeresy/tree/master/docs' target="_blank") Docs
     .container
       .row
-        .col-sm-2
-          ul#sidebar.nav.nav-stacked.affix
-            li
-              a(href='#') The Next Web
-            li
-              a(href='#') Mashable
-            li
-              a(href='#') TechCrunch
-            li
-              a(href='#') GitHub
-            li
-              a(href='#') In1
-            li
-              a(href='#') TechMeMe
-        .col-sm-10
+        if submenu
+          .col-sm-3
+            ul#sidebar.nav.nav-stacked.affix
+              each item,key in submenu
+                li
+                  a(href="#{item.url}")= item.label
+        .col-sm-9
           block content

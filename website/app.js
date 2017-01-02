@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs')
+var menus = require('./menus')
 
 var index = require('./routes/index');
 
@@ -25,9 +26,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
 app.get('/:file', function (req, res, next) {
-  var file = path.join(__dirname, 'views', 'exported', req.params.file + '.html')
-  var html = fs.readFileSync(file)
+  var filename = req.params.file
+  var filePath = path.join(__dirname, 'views', 'exported', filename + '.html')
+  var html = fs.readFileSync(filePath)
   res.locals.html = html
+  res.locals.filename = filename
+
+  if(menus.submenus.hasOwnProperty(filename)) {
+    console.log('submenu exists')
+    res.locals.submenu = menus.submenus[filename]
+  }
+
   res.render('file')
 })
 
