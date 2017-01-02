@@ -15,8 +15,8 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-app.get('/:file', function (req, res, next) {
-  var page = req.params.file
+function renderFilePage (req, res, next) {
+  var page = req.params.file || 'introduction'
   var filePath = path.join(__dirname, 'views', 'exported', page + '.html')
   var html = fs.readFileSync(filePath)
   res.locals.html = html
@@ -28,7 +28,10 @@ app.get('/:file', function (req, res, next) {
   }
 
   res.render('file')
-})
+}
+
+app.get('/:file', renderFilePage)
+app.get('/', renderFilePage)
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

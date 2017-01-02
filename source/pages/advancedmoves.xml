@@ -1,0 +1,3 @@
+<h1>Advanced Moves</h1>
+<p>The following moves are available to all acolytes to take when they level up.</p>
+{{#each advancedmoves}}{{>move}}{{/each}}

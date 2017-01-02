@@ -1,0 +1,2 @@
+# Aid or Interfere
+When you **help or hinder someone**, describe how and roll+bond with them. On a 10+ add +2 or -2 to  their roll, your choice. On a 7-9 add +1 or -1 to their roll, your choice, but you open yourself up to danger, retribution, or cost.

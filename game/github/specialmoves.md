@@ -30,3 +30,11 @@ When **you're dying** you see the darkness cloud your vision as you drift into d
 *   On a 10+ you've defied the odds, and barely cling to life.
 *   On a 7-9 you live, but your brush with death takes its toll. Describe the lasting effects your body or mind take and the GM will tell you which of your statistics you must reduce permanently by 1.
 *   On a 6-, you join the seemingly endless stream of souls to have been lost under the rule of the Imperium.
+
+### Encumbrance
+
+When you make a move while carrying weight you may be encumbered. If your weight carried is:
+
+*   Equal to or less than your load, you suffer no penalty
+*   Less than or equal to your load+2, you take -1 ongoing until you lighten your burden
+*   Greater than your load+2, you have a choice: drop at least 1 weight and roll at -1, or automatically fail

@@ -16,13 +16,10 @@ html
         a.navbar-brand(href='/') Heresy World
         .nav-collapse.collapse
           ul.nav.navbar-nav
-            -active = page == 'introduction' ? 'active' : ''
-            li(class="#{active}")
-              a(href='/introduction') Introduction
             -active = page == 'playingthegame' ? 'active' : ''
             li(class="#{active}")
               a(href='/playingthegame') Playing the Game
-            -active = ['moves', 'basicmoves', 'specialmoves'].indexOf(page) >= 0 ? 'active' : ''
+            -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(page) >= 0 ? 'active' : ''
             li(class="dropdown #{active}")
               a.dropdown-toggle(href='/moves', data-toggle='dropdown')
                 | Moves 
@@ -32,6 +29,8 @@ html
                   a(href='/basicmoves') Basic Moves
                 li
                   a(href='/specialmoves') Special Moves
+                li
+                  a(href='/advancedmoves') Advanced Moves
             li.dropdown
               a.dropdown-toggle(href='/moves', data-toggle='dropdown')
                 | Specialties 

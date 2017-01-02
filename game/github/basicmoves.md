@@ -13,9 +13,17 @@ Fire for Effect is your go-to move when a character is shooting to kill. It cove
 
 If you're using a weapon that doesn't have enough uses you can't take the bonus damage on the 10+ or the "expend another use" option on a 7-9.
 
+### Reload
+
+When you **take a moment to reload your weapon** reset your weapon's uses and expend 1 ammo.
+
+Once a character has expended all the uses of their weapon they need to reload. This isn't assumed, the players have to explicitly say they take a moment to reload. How long it takes is up to the GM, and reloading certainly counts as a prime opportunity for a GM move.
+
 ### Hack and Slash
 
-When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy’s attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.
+When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy's attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.
+
+The extra damage die you roll will be the largest size that you are already rolling. If your attack deals 1d8+1d6 damage, you would roll 2d8+1d6.
 
 ### Defy Danger
 
@@ -33,9 +41,13 @@ When you act despite an imminent threat or suffer a calamity, say how you deal w
 
 On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.
 
+### Spout Common Lore
+
+When you **consult your accumulated knowledge about a non-forbidden topic**, roll+Int. On a 10+, the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9, the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you “How do you know this?” Tell them the truth, now.
+
 ### Discern Realities
 
-When you closely study a situation or person, roll+Wis. ✴On a 10+, ask the GM 3 questions from the list below. ✴On a 7–9, ask 1.
+When you closely study a situation or person, roll+Wis. On a 10+, ask the GM 3 questions from the list below. On a 7–9, ask 1.
 
 Either way, take +1 forward when acting on the answers.
 
@@ -54,8 +66,6 @@ When you **stand in defense of a person, item, or location** under attack, roll+
 *   Halve the attack's effect or damage
 *   Open up the attacker to an ally giving that ally +1 forward against the attacker
 
-### Reload
+### Aid or Interfere
 
-When you **take a moment to reload your weapon** reset your weapon's uses and expend 1 ammo.
-
-> Once a character has expended all the uses of their weapon they need to reload. This isn't assumed, the players have to explicitly say they take a moment to reload. How long it takes is up to the GM, and reloading certainly counts as a prime opportunity for a GM move.
+When you **help or hinder someone**, describe how and roll+bond with them. On a 10+ add +2 or -2 to their roll, your choice. On a 7-9 add +1 or -1 to their roll, your choice, but you open yourself up to danger, retribution, or cost.
