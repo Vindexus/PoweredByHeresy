@@ -65,3 +65,7 @@ ul#sidebar {
   padding-left: 25px;
   font-size: 0.9em;
 }
+
+.navbar-fixed-top .nav > li {
+  margin-right: 2px;
+}

@@ -53,6 +53,9 @@ var pages = {
     label: 'Basic Moves',
     submenu: []
   },
+  specialties: {
+    label: 'Specialties'
+  },
   assassin: {
     label: 'Assassin',
     submenu: []
