@@ -7,6 +7,14 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .nav ul {
+        list-style: none;
+      }
+      .nav ul li a {
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
     <section class="page-header">
@@ -14,9 +22,9 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <div class="nav">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/workflow">How it Works</a></li>
-          <li><a href="/runningtheproject">Running the Project</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/">Home</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/workflow">How it Works</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/runningtheproject">Running the Project</a></li>
         </ul>
       </div>
       {% if site.github.is_project_page %}
