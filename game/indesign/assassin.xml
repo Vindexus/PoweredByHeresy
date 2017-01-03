@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/"><h1>Assassin</h1>
+<p>Good at fighting sneaky.</p>
+
+<h2>Look</h2>
+<p>Choose one of each:</p>
+<ul>
+  <li>Dead eyes, charming eyes, angry eyes</li><li>Black bodysuit, plain clothes, dirty rags</li><li>Buzz cut, elaborate hair, tattooed head</li><li>Slim body, athletic body, huge body</li>
+</ul>
+
+<h2>Starting Moves</h2>
+<move><h3>Unsuspecting Strike</h3>
+<move-description><p>When you <strong>get close to your target to make a surprise attack</strong>, roll+Ag if you use stealth or speed, or roll+Fel if you use deception or charm. On a 10+ choose two. On a 7-9 choose one.</p>
+<ul><li>You don't get into melee with them</li>
+<li>You deal your damage + 1d6</li>
+<li>You create an advantage, +1 forward to you or an ally acting on it</li>
+<li>Reduce their armor by 1 until they repair it</li></ul></move-description>
+
+</move></Root>

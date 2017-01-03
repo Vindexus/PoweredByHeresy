@@ -1,6 +1,12 @@
 <h1>{{name}}</h1>
 <p>{{description}}</p>
 
+<h2>Look</h2>
+<p>Choose one of each:</p>
+<ul>
+  {{#each looks}}<li>{{.}}</li>{{/each}}
+</ul>
+
 <h2>Starting Moves</h2>
 {{#each starting_moves}}
 {{>move .}}

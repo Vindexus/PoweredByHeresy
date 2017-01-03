@@ -34,6 +34,13 @@ var pages = {
       }]
     }]
   },
+  thegm: {
+    label: 'The GM',
+    submenu: [{
+      label: 'Agenda',
+      url: '#the-agenda'
+    }]
+  },
   specialmoves: {
     label: 'Special Moves',
     submenu: []
@@ -44,6 +51,10 @@ var pages = {
   },
   basicmoves: {
     label: 'Basic Moves',
+    submenu: []
+  },
+  assassin: {
+    label: 'Assassin',
     submenu: []
   },
   warrior: {

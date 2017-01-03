@@ -3,6 +3,15 @@
 
 Good at fighting
 
+## Look
+
+Choose one of each:
+
+*   Blank eyes, fiery eyes, kind eyes
+*   Military cut, messy hair, headband, helmet
+*   Worn uniform, utilitarian clothes, rags
+*   Lean body, hulking body, lithe body
+
 ## Starting Moves
 
 ### Tactical Advantage
@@ -15,6 +24,15 @@ Each battle is different and requires a different approach. At the start of each
 *   Precise: While you remain focused on a single target, you gain +2 piercing against them
 
 If you change tactics you lose the benefit of the one you had chosen.
+
+### Lifting the Fog
+
+The fog of war can mask any battle. As you witness it unfold, **whenever you or someone you have a bond with takes damage** gain 1 (Max 2). During the battle you may spend 1 to:
+
+*   Add +1 to one of your rolls
+*   Reroll a damage roll (yours or an ally's)
+
+At the end of the battle your resets to 0.
 
 ### Armored
 

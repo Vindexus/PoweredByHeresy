@@ -3,6 +3,10 @@
 
 Specialties and groups of related moves that empower an Adept with specific skills.
 
+## Assassin
+
+Good at fighting sneaky.
+
 ## Warrior
 
 Good at fighting

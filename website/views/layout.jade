@@ -18,28 +18,39 @@ html
           ul.nav.navbar-nav
             -active = pageName == 'playingthegame' ? 'active' : ''
             li(class="#{active}")
-              a(href='/playingthegame') Playing the Game
+              .btn-group
+                a.btn.navbar-btn.btn-default(href='/playingthegame') Playing the Game
             -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(pageName) >= 0 ? 'active' : ''
             li(class="dropdown #{active}")
-              a.dropdown-toggle(href='/moves', data-toggle='dropdown')
-                | Moves 
-                b.caret
-              ul.dropdown-menu
-                li
-                  a(href='/basicmoves') Basic Moves
-                li
-                  a(href='/specialmoves') Special Moves
-                li
-                  a(href='/advancedmoves') Advanced Moves
+              .btn-group
+                a.btn.navbar-btn.btn-default(href="/basicmoves") Moves
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href='/basicmoves') Basic Moves
+                  li
+                    a(href='/specialmoves') Special Moves
+                  li
+                    a(href='/advancedmoves') Advanced Moves
             li.dropdown
-              a.dropdown-toggle(href='/specialties', data-toggle='dropdown')
-                | Specialties 
-                b.caret
-              ul.dropdown-menu
-                li
-                  a(href='/warrior') Warrior
-                li
-                  a(href='/assassin') Assassin
+              .btn-group
+                a.btn.navbar-btn.btn-default(href="/specialties") Specialties
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href='/warrior') Warrior
+                  li
+                    a(href='/assassin') Assassin
+            li.dropdown
+              .btn-group
+                a.btn.navbar-btn.btn-default(href="/thegm") The GM
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href='/thegm#the-agendar') The Agenda
           ul.nav.navbar-nav.pull-right
             li
               a(href='https://github.com/Vindexus/PoweredByHeresy' target="_blank") GitHub
@@ -54,8 +65,8 @@ html
             each item,key in items
               li
                 a(href="#{item.url}")= item.label
-                if item.hasOwnProperty('submenu') && item.submenu && item.submenu.length > 0
+                if item.hasOwnProperty('submenu')
                   +submenu (item.submenu, '', 'nav nav-stacked')
         if submenu
-        .col-sm-3.sidebar
-          +submenu(submenu, 'sidebar', 'nav nav-stacked affix')
+          .col-sm-3.sidebar
+            +submenu(submenu, 'sidebar', 'nav nav-stacked affix')
