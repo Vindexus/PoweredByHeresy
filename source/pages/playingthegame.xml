@@ -32,7 +32,7 @@
 <p>The GM’s enemies, NPCs, and other assorted heresies also have moves, but they work differently.</p>
 
 <h3>Moves and Dice</h3>
-Most moves include the phrase “roll+x” where “x” is one of your character’s stats ({{stat 't'}} for example). Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
+Most moves include the phrase “roll+x” where “x” is one of your character’s statistics ({{stat 't'}} for example). Each statistic has its own short form, for example {{statistic 'fel'}} is shortened to {{stat 'fel'}}. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
 
 <blockquote class="first-person">I'm making a move that asks me to roll+{{stat 'str'}} and my {{statistic 'str'}} is +1. I rolled two six-sided dice, got a one and a four. My total is six.</blockquote>
 
@@ -43,6 +43,12 @@ Most moves include the phrase “roll+x” where “x” is one of your characte
 <p>Damage rolls work differently.</p>
 
 <h3>Moves and Equipment</h3>
+<p>The most important role of a character’s equipment is to help describe the moves they make. A character without a weapon of some sort isn’t going to trigger the {{move hack_and_slash}} move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn’t do much to ceramite power armor. It doesn’t count for the purposes of triggering the move.</p>
+
+<p>Likewise, sometimes equipment will avoid triggering a move. Climbing a sheer icy cliff will usually trigger {{move defy_danger}}, but with a good set of climbing gear you might be able to avoid the imminent danger or calamity that triggers the move.</p>
+
+<p>Weapons are particularly likely to modify what moves you can trigger. A character with a dagger can easily stab the ganger she's wrestling on the ground, triggering {{move hack_and_slash}}, but the character with a halberd is going to have a much harder time bringing it to bear on such a close foe.</p>
+
+<p>Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character’s actions when the items are being used and they give the GM information about how the items you’re using might go wrong or cause complications when you fail a roll.</p>
 
 <h3>The Effects of Moves</h3>
-
