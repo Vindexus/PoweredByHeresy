@@ -47,11 +47,15 @@ html
               a(href='https://github.com/Vindexus/PoweredByHeresy/tree/master/docs' target="_blank") Docs
     .container
       .row
-        if submenu
-          .col-sm-3
-            ul#sidebar.nav.nav-stacked.affix
-              each item,key in submenu
-                li
-                  a(href="#{item.url}")= item.label
         .col-sm-9
           block content
+        mixin submenu (items, id, c)
+          ul(id=id 'class'=c)
+            each item,key in items
+              li
+                a(href="#{item.url}")= item.label
+                if item.hasOwnProperty('submenu') && item.submenu && item.submenu.length > 0
+                  +submenu (item.submenu, '', 'nav nav-stacked')
+        if submenu
+        .col-sm-3.sidebar
+          +submenu(submenu, 'sidebar', 'nav nav-stacked affix')

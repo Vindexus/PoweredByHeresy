@@ -16,6 +16,22 @@ var pages = {
     }, {
       label: 'The Setting',
       url: '#the-setting'
+    }, {
+      label: 'The Mission',
+      url: '#the-setting'
+    }, {
+      label: 'Making Moves',
+      url: '#making-moves',
+      submenu: [{
+        url: '#moves-and-dice',
+        label: 'Moves and Dice'
+      }, {
+        url: '#moves-and-equipment',
+        label: 'Moves and Equipment'
+      }, {
+        url: '#the-effects-of-moves',
+        label: 'The Effects of Moves'
+      }]
     }]
   },
   specialmoves: {
