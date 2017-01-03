@@ -7,10 +7,5 @@ You can read the game text [here on GitHub](https://github.com/Vindexus/PoweredB
 ## Help Make the Game
 Read the [full documentation here](https://vindexus.github.io/PoweredByHeresy/).
 
-### Help Write the Text
-[Making text changes documentation](https://vindexus.github.io/PoweredByHeresy/#making-small-changes).
-
-### Help Write the Code
-This project is heavily reliant on NodeJS to compile all of its files into readable text. 
-
-[Making code changes documentation](https://vindexus.github.io/PoweredByHeresy/#making-code-changes).
+ - [Making text changes](https://vindexus.github.io/PoweredByHeresy/#making-small-changes). Move names, class descriptions, item tags, etc.
+ - [Making code changes](https://vindexus.github.io/PoweredByHeresy/#making-code-changes). This project is heavily reliant on NodeJS to compile all of its files into readable text.
