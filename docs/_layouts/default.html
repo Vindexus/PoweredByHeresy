@@ -10,9 +10,19 @@
     <style>
       .nav ul {
         list-style: none;
+        padding: 0px;
+      }
+      .nav ul li {
+        display: inline-block;
+        margin: 0 5px;
       }
       .nav ul li a {
         color: #fff;
+        display: inline-block;
+        padding: 0.5em 1em;
+        background: rgba(255,255,255,0.1);
+        border-radius: 3px;
+        border: 1px solid #ccc;
       }
     </style>
   </head>
@@ -22,18 +32,14 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <div class="nav">
         <ul>
-          <li><a href="https://vindexus.github.io/PoweredByHeresy/">Home</a></li>
-          <li><a href="https://vindexus.github.io/PoweredByHeresy/workflow">How it Works</a></li>
-          <li><a href="https://vindexus.github.io/PoweredByHeresy/runningtheproject">Running the Project</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/" class="btn">Home</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/workflow" class="btn">How it Works</a></li>
+          <li><a href="https://vindexus.github.io/PoweredByHeresy/runningtheproject" class="btn">Running the Project</a></li>
+          {% if site.github.is_project_page %}
+          <li><a href="{{ site.github.repository_url }}" class="btn" target="_blank">View on GitHub</a></li>
+          {% endif %}
         </ul>
       </div>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
     </section>
 
     <section class="main-content">
