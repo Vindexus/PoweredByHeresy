@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Page Title
+    title #{title} - Powered by Heresy
     link(href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet")
     script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
@@ -16,10 +16,10 @@ html
         a.navbar-brand(href='/') Heresy World
         .nav-collapse.collapse
           ul.nav.navbar-nav
-            -active = page == 'playingthegame' ? 'active' : ''
+            -active = pageName == 'playingthegame' ? 'active' : ''
             li(class="#{active}")
               a(href='/playingthegame') Playing the Game
-            -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(page) >= 0 ? 'active' : ''
+            -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(pageName) >= 0 ? 'active' : ''
             li(class="dropdown #{active}")
               a.dropdown-toggle(href='/moves', data-toggle='dropdown')
                 | Moves 
@@ -32,7 +32,7 @@ html
                 li
                   a(href='/advancedmoves') Advanced Moves
             li.dropdown
-              a.dropdown-toggle(href='/moves', data-toggle='dropdown')
+              a.dropdown-toggle(href='/specialties', data-toggle='dropdown')
                 | Specialties 
                 b.caret
               ul.dropdown-menu

@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs')
-var menus = require('./menus')
+var pages = require('./pages')
 
 var index = require('./routes/index');
 
@@ -16,15 +16,19 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 function renderFilePage (req, res, next) {
-  var page = req.params.file || 'introduction'
-  var filePath = path.join(__dirname, 'views', 'exported', page + '.html')
+  var pageName = req.params.file || 'introduction'
+  var page = pages[pageName]
+  if(!page) {
+    return next(new Error('page not found: ' + pageName))
+  }
+  var filePath = path.join(__dirname, 'views', 'exported', page.key + '.html')
   var html = fs.readFileSync(filePath)
   res.locals.html = html
-  res.locals.page = page
-  res.locals.main_menu = menus.main_menu
+  res.locals.pageName = pageName
+  res.locals.title = page.title
 
-  if(menus.submenus.hasOwnProperty(page)) {
-    res.locals.submenu = menus.submenus[page]
+  if(page.hasOwnProperty('submenu')) {
+    res.locals.submenu = page.submenu
   }
 
   res.render('file')

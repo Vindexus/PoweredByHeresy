@@ -2,7 +2,7 @@
 <Root xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/"><h1>Advanced Moves</h1>
 <p>The following moves are available to all acolytes to take when they level up.</p>
 <move><h3>Rapid Reload</h3>
-<move-description><p>You reload quick.</p></move-description>
+<move-description><p>When you attempt to reload quickly roll+Ag. On a 10+ you reload your weapon instantly - reset its uses and reduce your ammo by one. On a 7-9 the same in addition to what that the GM says. On a 6- you fumble your reload.</p></move-description>
 
 </move><move><h3>Spout Forbidden Lore</h3>
 <move-description><p>Same as spout lore but you need to justify how you know that forbidden knowledge.</p></move-description>
