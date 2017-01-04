@@ -39,6 +39,54 @@ The GM’s enemies, NPCs, and other assorted heresies also have moves, but they 
 
 ### Moves and Dice
 
+Most moves include the phrase “roll+x” where “x” is one of your character’s statistics (T for example). Each statistic has its own short form, for example Fellowship is shortened to Fel. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
+
+> I'm making a move that asks me to roll+undefined and my ERROR in getStatistic is +1\. I rolled two six-sided dice, got a one and a four. My total is six.
+
+The results always fall into three basic categories. A total of 10 or higher (written 10+) is the best outcome. A total of 7–9 is still a success but it comes with compromises or cost. A 6 or lower is trouble, but you also get to mark XP.
+
+Each move will tell you what happens on a 10+ and a 7–9\. Most moves won’t say what happens on a 6-, that’s up to the GM but you also always mark XP.
+
+Damage rolls work differently.
+
 ### Moves and Equipment
 
+The most important role of a character’s equipment is to help describe the moves they make. A character without a weapon of some sort isn’t going to trigger the [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn’t do much to ceramite power armor. It doesn’t count for the purposes of triggering the move.
+
+Likewise, sometimes equipment will avoid triggering a move. Climbing a sheer icy cliff will usually trigger [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger), but with a good set of climbing gear you might be able to avoid the imminent danger or calamity that triggers the move.
+
+Weapons are particularly likely to modify what moves you can trigger. A character with a dagger can easily stab the ganger she's wrestling on the ground, triggering [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash), but the character with a halberd is going to have a much harder time bringing it to bear on such a close foe.
+
+Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character’s actions when the items are being used and they give the GM information about how the items you’re using might go wrong or cause complications when you fail a roll.
+
 ### The Effects of Moves
+
+The effects of moves are always about the galaxy the characters inhabit. A 10+ on [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) doesn’t just mean the mechanical effects happen, it means you successfully attacked something and did some type of harm to it.
+
+Once you’ve figured out what the effects of the move are, apply them to the fiction and go back to the conversation. Always return to what’s going on in the game.
+
+Some moves have immediate mechanical effects, like dealing damage, inflicting wounds, or giving someone a bonus to their next roll. These effects are always a reflection of the fictional world the characters are in; make sure to use the fiction when describing the effects of the move.
+
+#### Some moves...
+
+Use the phrase “**deal damage**.” Dealing damage means you'll be rolling a certain number of dice against a targets _defense_. For every die that beats their defense, you inflict a wound.
+
+Use the phase "**inflict wound(s)**." These moves ignore the defense of the target and immediately inflict one or more wounds, bringing the target closer to death.
+
+Say “take **+1 forward**.” That means to take +1 to your next move roll (not damage). The bonus can be greater than +1, or even a penalty, like -1\. There also might be a condition, such as “take +1 forward to [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash),” in which case the bonus applies only to the next time you roll [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash), not any other move.
+
+Say “take **+1 ongoing**.” That means to take +1 to all move rolls (not damage). The bonus can be larger than +1, or it can be a penalty, like -1\. There also might be a condition, such as “take +1 ongoing to [Fire for Effect](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#fire-for-effect).” An ongoing effect also says what causes it to end, like “until you take damage” or “until you pray to the God-Emperor.”
+
+Say "roll with **advantage**." That means to roll 3d6 instead of 2, and take the two highest rolls.
+
+Say "roll with **edge**." That means that after you roll the move, you may choose to reroll one of the die.
+
+Say "**reroll**." That means you take all the dice you just rolled for a move and roll them all again. You use the same modifiers as the first roll, including any +x forwards, and the second result stands.
+
+Give you “**hold**.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from [Defend](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defend) on [Discern Realities](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#discern-realities) or vice versa, for example.
+
+Present a **choice**. The choice you make, like all move effects, dictates things that happen in the fiction in addition to any more mechanical effects. The choice you make on the 10+ result of hack and slash to deal more damage at the cost of opening yourself up is exactly what’s happening to your character: they have enough advantage that they can stay safe or push their luck.
+
+Give you a chance to say something about your character and their history. When you [Spout Forbidden Lore](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#spout-forbidden-lore) you may get asked how you know the information that the GM reveals. Take that opportunity to contribute to the history of part of the galaxy and show who your character really is. Just keep in mind the established facts of the Warhammer 40k universe and don’t contradict anything that’s already been described. If you aren't sure if something makes sense in 40k, ask the GM.
+
+Say “**mark XP**.” That means you add one to your current XP total.

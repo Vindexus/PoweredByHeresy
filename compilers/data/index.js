@@ -1,4 +1,5 @@
-var rpgparser_data            = require('rpgparser-data')
+var Parser                    = require('rpgparser-data')
+var parser                    = new Parser()
 var path                      = require('path')
 
 var gameDataDir = path.join(__dirname, "..", "..", "source", "data")
@@ -10,5 +11,5 @@ var config = {
   pointers: {}
 }
 
-rpgparser_data.init(config)
-rpgparser_data.run(config)
+parser.init(config)
+parser.run(config)

@@ -19,21 +19,23 @@ html
             -active = pageName == 'playingthegame' ? 'active' : ''
             li(class="#{active}")
               .btn-group
-                a.btn.navbar-btn.btn-default(href="/playingthegame") Playing the Game
-                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-primary(href="/playingthegame") Playing the Game
+                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
                     a(href='/playingthegame#the-setting') The Setting
                   li
                     a(href='/playingthegame#the-mission') The Mission
+                  li
+                    a(href='/playingthegame#making-moves') Making Moves
             li.dropdown
 
             -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(pageName) >= 0 ? 'active' : ''
             li(class="dropdown #{active}")
               .btn-group
-                a.btn.navbar-btn.btn-default(href="/basicmoves") Moves
-                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-primary(href="/basicmoves") Moves
+                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
@@ -44,8 +46,8 @@ html
                     a(href='/advancedmoves') Advanced Moves
             li.dropdown
               .btn-group
-                a.btn.navbar-btn.btn-default(href="/specialties") Specialties
-                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-primary(href="/specialties") Specialties
+                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
@@ -54,8 +56,8 @@ html
                     a(href='/assassin') Assassin
             li.dropdown
               .btn-group
-                a.btn.navbar-btn.btn-default(href="/thegm") The GM
-                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-primary(href="/thegm") The GM
+                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
