@@ -14,47 +14,47 @@
 
 <p>The rules help shape the conversation of play. While the GM and the players are talking, the rules and the fiction are talking, too. Every rule has an explicit fictional trigger that tells you when it is meant to come into the conversation.</p>
 
-<p>Like any conversation, the time you spend listening is just as important as the time you spend talking. The details established by the other people at the table (the GM and the other players) are important to you: they might change what moves you can make, set up an opportunity for you, or create a challenge you have to face. The conversation works best when we all listen, ask questions, and build on each other’s contributions.</p>
+<p>Like any conversation, the time you spend listening is just as important as the time you spend talking. The details established by the other people at the table (the GM and the other players) are important to you: they might change what moves you can make, set up an opportunity for you, or create a challenge you have to face. The conversation works best when we all listen, ask questions, and build on each other's contributions.</p>
 
 <h2>Making Moves</h2>
 <p>The most basic unit of rules in {{game_name}} is the move. A move looks like this:</p>
 
 <blockquote>{{{moves.hack_and_slash.description}}}</blockquote>
 
-<p>Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. “Fictional” means that the action and effect come from the world of the characters we’re describing. In the move above the trigger is “when you attack an enemy in melee.” The effect is what follows: a roll to be made and differing fictional effects based on the outcome of the roll.</p>
+<p>Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. “Fictional” means that the action and effect come from the world of the characters we're describing. In the move above the trigger is “when you attack an enemy in melee.” The effect is what follows: a roll to be made and differing fictional effects based on the outcome of the roll.</p>
 
 <p>When a player describes their character doing something that triggers a move, that move happens and its rules apply. If the move requires a roll, its description will tell you what dice to roll and how to read their results.</p>
 
-<p>A character can’t take the fictional action that triggers a move without that move occurring. For example, if Isaac tells the GM that his character dashes past a crazed axe-wielding ganger to the open door, he makes the {{move defy_danger}} move because its trigger is “when you act despite an imminent threat.” Isaac can’t just describe his character running past the orc without making the {{move defy_danger}} move and he can’t make the {{move defy_danger}} without acting despite an imminent threat or suffering a calamity. The moves and the fiction go hand-in-hand.</p>
+<p>A character can't take the fictional action that triggers a move without that move occurring. For example, if Isaac tells the GM that his character dashes past a crazed axe-wielding ganger to the open door, he makes the {{move defy_danger}} move because its trigger is “when you act despite an imminent threat.” Isaac can't just describe his character running past the orc without making the {{move defy_danger}} move and he can't make the {{move defy_danger}} without acting despite an imminent threat or suffering a calamity. The moves and the fiction go hand-in-hand.</p>
 
-<p>Everyone at the table should listen for when moves apply. If it’s ever unclear if a move has been triggered, everyone should work together to clarify what’s happening. Ask questions of everyone involved until everyone sees the situation the same way and then roll the dice, or don’t, as the situation requires.</p>
+<p>Everyone at the table should listen for when moves apply. If it's ever unclear if a move has been triggered, everyone should work together to clarify what's happening. Ask questions of everyone involved until everyone sees the situation the same way and then roll the dice, or don't, as the situation requires.</p>
 
-<p>The GM’s enemies, NPCs, and other assorted heresies also have moves, but they work differently.</p>
+<p>The GM's enemies, NPCs, and other assorted heresies also have moves, but they work differently.</p>
 
 <h3>Moves and Dice</h3>
-Most moves include the phrase “roll+x” where “x” is one of your character’s statistics ({{stat 't'}} for example). Each statistic has its own short form, for example {{statistic 'fel'}} is shortened to {{stat 'fel'}}. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
+Most moves include the phrase “roll+x” where “x” is one of your character's statistics ({{stat 't'}} for example). Each statistic has its own short form, for example {{statistic 'fel'}} is shortened to {{stat 'fel'}}. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
 
 <blockquote class="first-person">I'm making a move that asks me to roll+{{stat 's'}} and my {{statistic 's'}} is +1. I rolled two six-sided dice, got a one and a four. My total is six.</blockquote>
 
 <p>The results always fall into three basic categories. A total of 10 or higher (written 10+) is the best outcome. A total of 7–9 is still a success but it comes with compromises or cost. A 6 or lower is trouble, but you also get to mark XP.</p>
 
-<p>Each move will tell you what happens on a 10+ and a 7–9. Most moves won’t say what happens on a 6-, that’s up to the GM but you also always mark XP.</p>
+<p>Each move will tell you what happens on a 10+ and a 7–9. Most moves won't say what happens on a 6-, that's up to the GM but you also always mark XP.</p>
 
 <p>Damage rolls work differently.</p>
 
 <h3>Moves and Equipment</h3>
-<p>The most important role of a character’s equipment is to help describe the moves they make. A character without a weapon of some sort isn’t going to trigger the {{move hack_and_slash}} move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn’t do much to ceramite power armor. It doesn’t count for the purposes of triggering the move.</p>
+<p>The most important role of a character's equipment is to help describe the moves they make. A character without a weapon of some sort isn't going to trigger the {{move hack_and_slash}} move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn't do much to ceramite power armor. It doesn't count for the purposes of triggering the move.</p>
 
 <p>Likewise, sometimes equipment will avoid triggering a move. Climbing a sheer icy cliff will usually trigger {{move defy_danger}}, but with a good set of climbing gear you might be able to avoid the imminent danger or calamity that triggers the move.</p>
 
 <p>Weapons are particularly likely to modify what moves you can trigger. A character with a dagger can easily stab the ganger she's wrestling on the ground, triggering {{move hack_and_slash}}, but the character with a halberd is going to have a much harder time bringing it to bear on such a close foe.</p>
 
-<p>Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character’s actions when the items are being used and they give the GM information about how the items you’re using might go wrong or cause complications when you fail a roll.</p>
+<p>Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character's actions when the items are being used and they give the GM information about how the items you're using might go wrong or cause complications when you fail a roll.</p>
 
 <h3>The Effects of Moves</h3>
-<p>The effects of moves are always about the galaxy the characters inhabit. A 10+ on {{move hack_and_slash}} doesn’t just mean the mechanical effects happen, it means you successfully attacked something and did some type of harm to it.</p>
+<p>The effects of moves are always about the galaxy the characters inhabit. A 10+ on {{move hack_and_slash}} doesn't just mean the mechanical effects happen, it means you successfully attacked something and did some type of harm to it.</p>
 
-<p>Once you’ve figured out what the effects of the move are, apply them to the fiction and go back to the conversation. Always return to what’s going on in the game.</p>
+<p>Once you've figured out what the effects of the move are, apply them to the fiction and go back to the conversation. Always return to what's going on in the game.</p>
 
 <p>Some moves have immediate mechanical effects, like dealing damage, inflicting wounds, or giving someone a bonus to their next roll. These effects are always a reflection of the fictional world the characters are in; make sure to use the fiction when describing the effects of the move.</p>
 
@@ -74,10 +74,96 @@ Most moves include the phrase “roll+x” where “x” is one of your characte
 
 <p>Say "**reroll**." That means you take all the dice you just rolled for a move and roll them all again. You use the same modifiers as the first roll, including any +x forwards, and the second result stands.</p>
 
-<p>Give you “<strong>hold</strong>.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from {{move defend}} on {{move discern_realities}} or vice versa, for example.</p>
+<p>Give you “<strong>hold</strong>.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can't spend your hold from {{move defend}} on {{move discern_realities}} or vice versa, for example.</p>
 
-<p>Present a <strong>choice</strong>. The choice you make, like all move effects, dictates things that happen in the fiction in addition to any more mechanical effects. The choice you make on the 10+ result of hack and slash to deal more damage at the cost of opening yourself up is exactly what’s happening to your character: they have enough advantage that they can stay safe or push their luck.</p>
+<p>Present a <strong>choice</strong>. The choice you make, like all move effects, dictates things that happen in the fiction in addition to any more mechanical effects. The choice you make on the 10+ result of hack and slash to deal more damage at the cost of opening yourself up is exactly what's happening to your character: they have enough advantage that they can stay safe or push their luck.</p>
 
-<p>Give you a chance to say something about your character and their history. When you {{move spout_forbidden_lore}} you may get asked how you know the information that the GM reveals. Take that opportunity to contribute to the history of part of the galaxy and show who your character really is. Just keep in mind the established facts of the Warhammer 40k universe and don’t contradict anything that’s already been described. If you aren't sure if something makes sense in 40k, ask the GM.</p>
+<p>Give you a chance to say something about your character and their history. When you {{move spout_forbidden_lore}} you may get asked how you know the information that the GM reveals. Take that opportunity to contribute to the history of part of the galaxy and show who your character really is. Just keep in mind the established facts of the Warhammer 40k universe and don't contradict anything that's already been described. If you aren't sure if something makes sense in 40k, ask the GM.</p>
 
   <p>Say “<strong>mark XP</strong>.” That means you add one to your current XP total.</p>
+
+<h2>Damage and Wounds</h2>
+<p>This document is a work in progress. All numbers, and the entire system, are subject to change.</p>
+
+<p>Characters in the game take damage, which can sometimes inflict wounds. When a character's current wounds meets or exceeds their max wounds, they die.</p>
+
+<p>There are ways to heal characters and remove their current wounds - surgery, rest, chemicals.</p>
+
+<h3>Damage</h3>
+<ul>
+  <li>Damage is given by people, environment, weapons, poison, etc</li>
+  <li>Damage is not guaranteed to inflict wounds</li>
+  <li>Whether damage inflicts a wound depends on your defense</li>
+</ul>
+
+<h3>Wounds</h3>
+<ul>
+  <li>A creature has a certain number of max wounds they can take before they die</li>
+  <li>A wound is significant damage, not just scrapes and bruises</li>
+  <li>Wounds can be healed, but can easily leave scars</li>
+  <li>reatures have Current Wounds and Max Wounds</li>
+</ul>
+
+<h3>Defense</h3>
+<ul>
+  <li>Your Defense is a number that represents your ability to withstand damage without suffering wounds</li>
+  <li>It's a single tally that incorporates things like armor, reflexes, cover, shields, and even luck, or faith.</li>
+  <li>Your Defense can change from attack to attack based on your physical state, the type of attack, your surroundings, etc</li>
+</ul>
+
+<h3>Dealing Damage and Inflicting Wounds</h3>
+<ul>
+  <li>When you deal damage, you roll all the relevant dice of your weapon, as well as any bonus dice afforded to you from moves, equipment, or buffs</li>
+  <li>After you have rolled your dice, you may roll extra dice or reroll some dice based on special rules you have</li>
+  <li>Once you are done rolling, count all the dice that are higher than the Defense of your target</li>
+  <li>That number is how many wounds you inflict</li>
+</ul>
+
+<h3>Taking Damage and Suffering Wounds</h3>
+<ul>
+  <li>This works the same as Dealing Damage and Inflicting Wounds but in reverse</li>
+  <li>Roll the dice for the damage you are receiving</li>
+  <li>Reroll any dice or extra dice as needed</li>
+  <li>Count the number of dice that are higher than your Defense</li>
+  <li>That number is how many wounds you suffer</li>
+</ul>
+
+<h3>Example of Damage Dealing</h3>
+<ul>
+  <li>Griff shoots his shotgun at a cultist named Scar</li>
+  <li>Griff's shotgun deals 2d6 damage and has the tag Proven (2)</li>
+  <li>Griff rolls his damage and gets a 1 and a 3</li>
+  <li>The Proven (2) tag lets Griff reroll any roll of 2 or lower once</li>
+  <li>Griff rerolls his 1 and gets a 5</li>
+  <li>Griff's final result is a 5 and a 3</li>
+  <li>The cultist has a defense of 3</li>
+  <li>Griff causes 1 wound to Scar</li>
+</ul>
+
+<h3>Example Wounds and Defense</h3>
+<p>A human with civilian clothes and no training or combat experience would have Max Wounds of 3 and Defense of 1</p>
+<p>An Imperial Guardsman wearing Flak Armor would have Defense 3 and Max Wounds 3</p>
+<p>An Adeptus Astartes with Power Armor would have Defense 6 and Max Wounds 8</p>
+
+<h3>Dying</h3>
+<p>When your current wounds reaches or exceeds your max wounds, you are dying and roll for {{move last_breath}}. Some dangers instantly have you roll for {{move last_breath}}, completely bypassing damage and wounds.</p>
+
+<h3>Improving Defense</h3>
+<p>Here are some things that can improve defense.</p>
+<ul>
+  <li>Flak Armor: +1 Defense</li>
+  <li>Good cover: +1 Defense against ranged attacks</li>
+  <li>Parry skill: +1 Defense against melee attacks</li>
+  <li>Power armor: +2 Defense</li>
+  <li>Adeptus power armor: +3 Defense</li>
+  <li>Uncanny reflexes: +1 Defense</li>
+</ul>
+
+<h3>Healing Wounds</h3>
+<ul>
+  <li>You can reduce your wounds by 1 or by getting medical attention</li>
+  <li>One day of rest will reduce your current wounds by 1</li>
+  <li>One day of rest under the care of a talented medical team will reduce your current wounds by 2</li>
+  <li>A medkit applied properly will heal 1 wound</li>
+</ul>
+

@@ -19,7 +19,7 @@ Powered by Heresy is played like a conversation at the table; somebody says some
 
 The rules help shape the conversation of play. While the GM and the players are talking, the rules and the fiction are talking, too. Every rule has an explicit fictional trigger that tells you when it is meant to come into the conversation.
 
-Like any conversation, the time you spend listening is just as important as the time you spend talking. The details established by the other people at the table (the GM and the other players) are important to you: they might change what moves you can make, set up an opportunity for you, or create a challenge you have to face. The conversation works best when we all listen, ask questions, and build on each other’s contributions.
+Like any conversation, the time you spend listening is just as important as the time you spend talking. The details established by the other people at the table (the GM and the other players) are important to you: they might change what moves you can make, set up an opportunity for you, or create a challenge you have to face. The conversation works best when we all listen, ask questions, and build on each other's contributions.
 
 ## Making Moves
 
@@ -27,43 +27,43 @@ The most basic unit of rules in Powered by Heresy is the move. A move looks like
 
 > When you **attack an enemy in melee**, roll+WS. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to roll an extra damage die but expose yourself to the enemy's attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.
 
-Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. “Fictional” means that the action and effect come from the world of the characters we’re describing. In the move above the trigger is “when you attack an enemy in melee.” The effect is what follows: a roll to be made and differing fictional effects based on the outcome of the roll.
+Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. “Fictional” means that the action and effect come from the world of the characters we're describing. In the move above the trigger is “when you attack an enemy in melee.” The effect is what follows: a roll to be made and differing fictional effects based on the outcome of the roll.
 
 When a player describes their character doing something that triggers a move, that move happens and its rules apply. If the move requires a roll, its description will tell you what dice to roll and how to read their results.
 
-A character can’t take the fictional action that triggers a move without that move occurring. For example, if Isaac tells the GM that his character dashes past a crazed axe-wielding ganger to the open door, he makes the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) move because its trigger is “when you act despite an imminent threat.” Isaac can’t just describe his character running past the orc without making the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) move and he can’t make the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) without acting despite an imminent threat or suffering a calamity. The moves and the fiction go hand-in-hand.
+A character can't take the fictional action that triggers a move without that move occurring. For example, if Isaac tells the GM that his character dashes past a crazed axe-wielding ganger to the open door, he makes the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) move because its trigger is “when you act despite an imminent threat.” Isaac can't just describe his character running past the orc without making the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) move and he can't make the [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) without acting despite an imminent threat or suffering a calamity. The moves and the fiction go hand-in-hand.
 
-Everyone at the table should listen for when moves apply. If it’s ever unclear if a move has been triggered, everyone should work together to clarify what’s happening. Ask questions of everyone involved until everyone sees the situation the same way and then roll the dice, or don’t, as the situation requires.
+Everyone at the table should listen for when moves apply. If it's ever unclear if a move has been triggered, everyone should work together to clarify what's happening. Ask questions of everyone involved until everyone sees the situation the same way and then roll the dice, or don't, as the situation requires.
 
-The GM’s enemies, NPCs, and other assorted heresies also have moves, but they work differently.
+The GM's enemies, NPCs, and other assorted heresies also have moves, but they work differently.
 
 ### Moves and Dice
 
-Most moves include the phrase “roll+x” where “x” is one of your character’s statistics (T for example). Each statistic has its own short form, for example Fellowship is shortened to Fel. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
+Most moves include the phrase “roll+x” where “x” is one of your character's statistics (T for example). Each statistic has its own short form, for example Fellowship is shortened to Fel. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
 
 > I'm making a move that asks me to roll+undefined and my ERROR in getStatistic is +1\. I rolled two six-sided dice, got a one and a four. My total is six.
 
 The results always fall into three basic categories. A total of 10 or higher (written 10+) is the best outcome. A total of 7–9 is still a success but it comes with compromises or cost. A 6 or lower is trouble, but you also get to mark XP.
 
-Each move will tell you what happens on a 10+ and a 7–9\. Most moves won’t say what happens on a 6-, that’s up to the GM but you also always mark XP.
+Each move will tell you what happens on a 10+ and a 7–9\. Most moves won't say what happens on a 6-, that's up to the GM but you also always mark XP.
 
 Damage rolls work differently.
 
 ### Moves and Equipment
 
-The most important role of a character’s equipment is to help describe the moves they make. A character without a weapon of some sort isn’t going to trigger the [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn’t do much to ceramite power armor. It doesn’t count for the purposes of triggering the move.
+The most important role of a character's equipment is to help describe the moves they make. A character without a weapon of some sort isn't going to trigger the [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) move when fighting a Chaos Space Marine since a bare-knuckle punch really doesn't do much to ceramite power armor. It doesn't count for the purposes of triggering the move.
 
 Likewise, sometimes equipment will avoid triggering a move. Climbing a sheer icy cliff will usually trigger [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger), but with a good set of climbing gear you might be able to avoid the imminent danger or calamity that triggers the move.
 
 Weapons are particularly likely to modify what moves you can trigger. A character with a dagger can easily stab the ganger she's wrestling on the ground, triggering [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash), but the character with a halberd is going to have a much harder time bringing it to bear on such a close foe.
 
-Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character’s actions when the items are being used and they give the GM information about how the items you’re using might go wrong or cause complications when you fail a roll.
+Items and gear of every sort have tags. Tags are terms to describe things. Some tags have a specific effect on the rules (things like extra damage or a bonus to a certain move or stat). Other tags are purely about the fiction (like the close tag, which describes the length of a weapon and how near your enemies need to be for you to attack them). Tags help you describe your character's actions when the items are being used and they give the GM information about how the items you're using might go wrong or cause complications when you fail a roll.
 
 ### The Effects of Moves
 
-The effects of moves are always about the galaxy the characters inhabit. A 10+ on [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) doesn’t just mean the mechanical effects happen, it means you successfully attacked something and did some type of harm to it.
+The effects of moves are always about the galaxy the characters inhabit. A 10+ on [Hack and Slash](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#hack-and-slash) doesn't just mean the mechanical effects happen, it means you successfully attacked something and did some type of harm to it.
 
-Once you’ve figured out what the effects of the move are, apply them to the fiction and go back to the conversation. Always return to what’s going on in the game.
+Once you've figured out what the effects of the move are, apply them to the fiction and go back to the conversation. Always return to what's going on in the game.
 
 Some moves have immediate mechanical effects, like dealing damage, inflicting wounds, or giving someone a bonus to their next roll. These effects are always a reflection of the fictional world the characters are in; make sure to use the fiction when describing the effects of the move.
 
@@ -83,10 +83,93 @@ Say "roll with **edge**." That means that after you roll the move, you may choos
 
 Say "**reroll**." That means you take all the dice you just rolled for a move and roll them all again. You use the same modifiers as the first roll, including any +x forwards, and the second result stands.
 
-Give you “**hold**.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from [Defend](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defend) on [Discern Realities](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#discern-realities) or vice versa, for example.
+Give you “**hold**.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can't spend your hold from [Defend](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defend) on [Discern Realities](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#discern-realities) or vice versa, for example.
 
-Present a **choice**. The choice you make, like all move effects, dictates things that happen in the fiction in addition to any more mechanical effects. The choice you make on the 10+ result of hack and slash to deal more damage at the cost of opening yourself up is exactly what’s happening to your character: they have enough advantage that they can stay safe or push their luck.
+Present a **choice**. The choice you make, like all move effects, dictates things that happen in the fiction in addition to any more mechanical effects. The choice you make on the 10+ result of hack and slash to deal more damage at the cost of opening yourself up is exactly what's happening to your character: they have enough advantage that they can stay safe or push their luck.
 
-Give you a chance to say something about your character and their history. When you [Spout Forbidden Lore](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#spout-forbidden-lore) you may get asked how you know the information that the GM reveals. Take that opportunity to contribute to the history of part of the galaxy and show who your character really is. Just keep in mind the established facts of the Warhammer 40k universe and don’t contradict anything that’s already been described. If you aren't sure if something makes sense in 40k, ask the GM.
+Give you a chance to say something about your character and their history. When you [Spout Forbidden Lore](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#spout-forbidden-lore) you may get asked how you know the information that the GM reveals. Take that opportunity to contribute to the history of part of the galaxy and show who your character really is. Just keep in mind the established facts of the Warhammer 40k universe and don't contradict anything that's already been described. If you aren't sure if something makes sense in 40k, ask the GM.
 
 Say “**mark XP**.” That means you add one to your current XP total.
+
+## Damage and Wounds
+
+This document is a work in progress. All numbers, and the entire system, are subject to change.
+
+Characters in the game take damage, which can sometimes inflict wounds. When a character's current wounds meets or exceeds their max wounds, they die.
+
+There are ways to heal characters and remove their current wounds - surgery, rest, chemicals.
+
+### Damage
+
+*   Damage is given by people, environment, weapons, poison, etc
+*   Damage is not guaranteed to inflict wounds
+*   Whether damage inflicts a wound depends on your defense
+
+### Wounds
+
+*   A creature has a certain number of max wounds they can take before they die
+*   A wound is significant damage, not just scrapes and bruises
+*   Wounds can be healed, but can easily leave scars
+*   reatures have Current Wounds and Max Wounds
+
+### Defense
+
+*   Your Defense is a number that represents your ability to withstand damage without suffering wounds
+*   It's a single tally that incorporates things like armor, reflexes, cover, shields, and even luck, or faith.
+*   Your Defense can change from attack to attack based on your physical state, the type of attack, your surroundings, etc
+
+### Dealing Damage and Inflicting Wounds
+
+*   When you deal damage, you roll all the relevant dice of your weapon, as well as any bonus dice afforded to you from moves, equipment, or buffs
+*   After you have rolled your dice, you may roll extra dice or reroll some dice based on special rules you have
+*   Once you are done rolling, count all the dice that are higher than the Defense of your target
+*   That number is how many wounds you inflict
+
+### Taking Damage and Suffering Wounds
+
+*   This works the same as Dealing Damage and Inflicting Wounds but in reverse
+*   Roll the dice for the damage you are receiving
+*   Reroll any dice or extra dice as needed
+*   Count the number of dice that are higher than your Defense
+*   That number is how many wounds you suffer
+
+### Example of Damage Dealing
+
+*   Griff shoots his shotgun at a cultist named Scar
+*   Griff's shotgun deals 2d6 damage and has the tag Proven (2)
+*   Griff rolls his damage and gets a 1 and a 3
+*   The Proven (2) tag lets Griff reroll any roll of 2 or lower once
+*   Griff rerolls his 1 and gets a 5
+*   Griff's final result is a 5 and a 3
+*   The cultist has a defense of 3
+*   Griff causes 1 wound to Scar
+
+### Example Wounds and Defense
+
+A human with civilian clothes and no training or combat experience would have Max Wounds of 3 and Defense of 1
+
+An Imperial Guardsman wearing Flak Armor would have Defense 3 and Max Wounds 3
+
+An Adeptus Astartes with Power Armor would have Defense 6 and Max Wounds 8
+
+### Dying
+
+When your current wounds reaches or exceeds your max wounds, you are dying and roll for [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath). Some dangers instantly have you roll for [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath), completely bypassing damage and wounds.
+
+### Improving Defense
+
+Here are some things that can improve defense.
+
+*   Flak Armor: +1 Defense
+*   Good cover: +1 Defense against ranged attacks
+*   Parry skill: +1 Defense against melee attacks
+*   Power armor: +2 Defense
+*   Adeptus power armor: +3 Defense
+*   Uncanny reflexes: +1 Defense
+
+### Healing Wounds
+
+*   You can reduce your wounds by 1 or by getting medical attention
+*   One day of rest will reduce your current wounds by 1
+*   One day of rest under the care of a talented medical team will reduce your current wounds by 2
+*   A medkit applied properly will heal 1 wound

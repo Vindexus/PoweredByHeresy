@@ -32,6 +32,28 @@ var pages = {
         url: '#the-effects-of-moves',
         label: 'The Effects of Moves'
       }]
+    }, {
+      label: 'Damage and Wounds',
+      url: '#damage-and-wounds',
+      submenu: [{
+        url: '#damage',
+        label: 'Damage'
+      }, {
+        url: '#wounds',
+        label: 'Wounds'
+      }, {
+        url: '#defense',
+        label: 'Defense'
+      }, {
+        url: '#dealing-damage-and-inflicting-wounds',
+        label: 'Dealing Damage and Inflicting Wounds'
+      }, {
+        url: '#taking-damage-and-suffering-wounds',
+        label: 'Taking Damage and Suffering Wounds'
+      }, {
+        url: '#example-of-damage-dealing',
+        label: 'Example of Damage Dealing'
+      }]
     }]
   },
   thegm: {

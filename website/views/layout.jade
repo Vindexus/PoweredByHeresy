@@ -13,14 +13,14 @@ html
           span.icon-bar
           span.icon-bar
           span.icon-bar
-        a.navbar-brand(href='/') Heresy World
+        a.navbar-brand(href='/') Powered by Heresy
         .nav-collapse.collapse
           ul.nav.navbar-nav
             -active = pageName == 'playingthegame' ? 'active' : ''
             li(class="#{active}")
               .btn-group
-                a.btn.navbar-btn.btn-primary(href="/playingthegame") Playing the Game
-                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-default(href="/playingthegame") Playing the Game
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
@@ -29,13 +29,15 @@ html
                     a(href='/playingthegame#the-mission') The Mission
                   li
                     a(href='/playingthegame#making-moves') Making Moves
+                  li
+                    a(href='/playingthegame#damage-and-wounds') Damage and Wounds
             li.dropdown
 
             -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(pageName) >= 0 ? 'active' : ''
             li(class="dropdown #{active}")
               .btn-group
-                a.btn.navbar-btn.btn-primary(href="/basicmoves") Moves
-                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-default(href="/basicmoves") Moves
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
@@ -46,8 +48,8 @@ html
                     a(href='/advancedmoves') Advanced Moves
             li.dropdown
               .btn-group
-                a.btn.navbar-btn.btn-primary(href="/classes") Classes
-                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-default(href="/classes") Classes
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
@@ -58,8 +60,8 @@ html
                     a(href='/warrior') Warrior
             li.dropdown
               .btn-group
-                a.btn.navbar-btn.btn-primary(href="/thegm") The GM
-                button.btn.dropdown-toggle.navbar-btn.btn-primary(data-toggle="dropdown")
+                a.btn.navbar-btn.btn-default(href="/thegm") The GM
+                button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
                   li
