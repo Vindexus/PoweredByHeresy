@@ -68,4 +68,28 @@ ul#sidebar {
 
 .navbar-fixed-top .nav > li {
   margin-right: 2px;
+  font-family: 'EB Garamond', serif;
+}
+
+.navbar-fixed-top .nav > li a {
+  font-weight: bold;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  position: relative;
+  color: #000;
+}
+
+h1:before, h2:before, h3:before, h4:before {
+  content: attr(text);
+  font-family: 'Homemade Apple';
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  z-index: -1;
+  font-size: 0.9em;
+  letter-spacing: -1.5px;
+  color: #ECECEC;
 }
