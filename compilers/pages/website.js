@@ -45,9 +45,9 @@ parser.registerHelper(function (Handlebars, gameData) {
 })
 
 parser.registerHelper(function (Handlebars, gameData) {
-  Handlebars.registerHelper('specialty', function(options) {
-    var specialty = Handlebars.helpers.getSpecialty(options)
-    return new Handlebars.SafeString('<a href="/' + specialty.key + '">' + specialty.name + '</a>')
+  Handlebars.registerHelper('class', function(options) {
+    var c = Handlebars.helpers.getClass(options)
+    return new Handlebars.SafeString('<a href="/' + c.key + '">' + c.name + '</a>')
   })
 })
 parser.registerPackagedStep('xml2html', c.htmlStepConfig)

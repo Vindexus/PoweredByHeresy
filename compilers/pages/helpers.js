@@ -28,35 +28,36 @@ module.exports = function (Handlebars, gameData) {
     return tag
   })
 
-  Handlebars.registerHelper('getSpecialty', function (options) {
-    var err = {name: 'ERROR in getspecialty'}
+  Handlebars.registerHelper('getClass', function (options) {
+    var err = {name: 'ERROR in getClass'}
     if(!options) {
-      console.err('options in getspecialty', options)
+      console.error('options in getclass', options)
+      err.name = 'ERROR in getClass (no options)'
       return err
     }
-    var specialty
+    var c
     var method
     if(typeof(options) == 'string') {
-      specialty = gameData.specialties[options]
+      c = gameData.classes[options]
       method = 'string'
     }
     else if(typeof(options) == 'object') {
       if(options.fn) {
         var key = options.fn(this)
         console.log('key', key)
-        specialty = gameData.specialties[key]
+        c = gameData.classes[key]
         method = 'options.fn'
       }
       else {
-        specialty = options
+        c = options
         method = 'options is object'
       }
     }
-    if(!specialty) {
-      console.error('Failed to load specialty with ' + method + ': ' + JSON.stringify(options).substr(0, 50))
+    if(!c) {
+      console.error('Failed to load class with ' + method + ': ' + JSON.stringify(options).substr(0, 50))
       return err
     }
-    return specialty
+    return c
   })
 
   Handlebars.registerHelper('getMove', function (options) {
@@ -111,9 +112,9 @@ module.exports = function (Handlebars, gameData) {
     return new Handlebars.SafeString(tag.name)
   })
 
-  Handlebars.registerHelper('specialty', function(options) {
-    var specialty = Handlebars.helpers.getSpecialty(options)
-    return new Handlebars.SafeString(specialty.name)
+  Handlebars.registerHelper('class', function(options) {
+    var c = Handlebars.helpers.getClass(options)
+    return new Handlebars.SafeString(c.name)
   })
 
   Handlebars.registerHelper('stat', function(options) {

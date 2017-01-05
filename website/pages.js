@@ -53,11 +53,15 @@ var pages = {
     label: 'Basic Moves',
     submenu: []
   },
-  specialties: {
-    label: 'Specialties'
+  classes: {
+    label: 'Classes'
   },
   assassin: {
     label: 'Assassin',
+    submenu: []
+  },
+  seeker: {
+    label: 'Seeker',
     submenu: []
   },
   warrior: {
@@ -78,7 +82,15 @@ movePages.forEach(function (page) {
 })
 
 
-gameData.specialties_list.forEach(function (spec) {
+gameData.classes_list.forEach(function (spec) {
+  pages[spec.key].submenu.push({
+    label: 'Stats',
+    url: '#stats'
+  })
+  pages[spec.key].submenu.push({
+    label: 'Look',
+    url: '#look'
+  })
   pages[spec.key].submenu.push({
     label: 'Starting Moves',
     url: '#starting-moves',
@@ -89,6 +101,18 @@ gameData.specialties_list.forEach(function (spec) {
       }
     })
   })
+  if(spec.advanced_moves) {
+    pages[spec.key].submenu.push({
+      label: 'Advanced Moves',
+      url: '#advanced-moves',
+      submenu: spec.advanced_moves.map(function (move) {
+        return {
+          label: move.name,
+          url: '#' + slugify(move.name, {lower: true})
+        }
+      })
+    })
+  }
 })
 
 for(var key in pages) {

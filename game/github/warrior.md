@@ -3,6 +3,12 @@
 
 Good at fighting
 
+## Stats
+
+Your starting Max Wounds is +T
+
+Your load is +S.
+
 ## Look
 
 Choose one of each:
@@ -13,6 +19,8 @@ Choose one of each:
 *   Lean body, hulking body, lithe body
 
 ## Starting Moves
+
+You get these moves.
 
 ### Tactical Advantage
 
@@ -37,3 +45,7 @@ At the end of the battle your resets to 0.
 ### Armored
 
 You ignore the Clumsy tag on any armor you wear.
+
+## Advanced Moves
+
+Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.

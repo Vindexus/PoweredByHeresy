@@ -3,6 +3,12 @@
 
 Good at fighting sneaky.
 
+## Stats
+
+Your starting Max Wounds is +T
+
+Your load is +S.
+
 ## Look
 
 Choose one of each:
@@ -14,6 +20,8 @@ Choose one of each:
 
 ## Starting Moves
 
+You get these moves.
+
 ### Unsuspecting Strike
 
 When you **get close to your target to make a surprise attack**, roll+Ag if you use stealth or speed, or roll+Fel if you use deception or charm. On a 10+ choose two. On a 7-9 choose one.
@@ -22,3 +30,7 @@ When you **get close to your target to make a surprise attack**, roll+Ag if you 
 *   You deal your damage + 1d6
 *   You create an advantage, +1 forward to you or an ally acting on it
 *   Reduce their armor by 1 until they repair it
+
+## Advanced Moves
+
+Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.

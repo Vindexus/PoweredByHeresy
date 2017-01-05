@@ -1,0 +1,7 @@
+<h1>Classes</h1>
+<p>Classes and groups of related moves that empower an Adept with specific skills.</p>
+
+{{#each classes_list}}
+<h2>{{class key}}</h2>
+<p>{{description}}</p>
+{{/each}}

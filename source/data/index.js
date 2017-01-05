@@ -1,7 +1,7 @@
 module.exports = {
-  specialties_list: {
-    list: ['assassin', 'warrior'],
-    points_to: 'specialties'
+  classes_list: {
+    list: ['assassin', 'seeker', 'warrior'],
+    points_to: 'classes'
   },
   game_name: 'Powered by Heresy'
 }
