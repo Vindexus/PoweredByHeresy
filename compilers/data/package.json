@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "rpgparser-data": "^1.0.1"
   },
   "scripts": {
     "watch": "nodemon -e md,js --watch ../../source index.js"
