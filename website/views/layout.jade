@@ -8,13 +8,14 @@ html
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
     link(href="/stylesheets/style.css" rel="stylesheet")
   body
+    #terra
     .navbar.navbar-fixed-top
       .container
         button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-collapse')
           span.icon-bar
           span.icon-bar
           span.icon-bar
-        a.navbar-brand(href='/') Powered by Heresy
+        a.navbar-brand(href='/' text="Powered by Heresy") Powered by Heresy
         .nav-collapse.collapse
           ul.nav.navbar-nav
             -active = pageName == 'playingthegame' ? 'active' : ''
@@ -74,7 +75,7 @@ html
               a(href='https://github.com/Vindexus/PoweredByHeresy/tree/master/docs' target="_blank") Docs
     .container
       .row
-        .col-sm-9
+        .col-sm-9.main-content
           block content
         mixin submenu (items, id, c)
           ul(id=id 'class'=c)

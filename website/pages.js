@@ -61,6 +61,9 @@ var pages = {
     submenu: [{
       label: 'Agenda',
       url: '#the-agenda'
+    }, {
+      label: 'Moves',
+      url: '#moves'
     }]
   },
   specialmoves: {

@@ -1,5 +1,7 @@
 body {
   padding-top:65px;
+  background: url('/img/bodybg.png');
+  padding-bottom: 50px;
 }
 
 @media (min-width: 979px) {
@@ -35,6 +37,41 @@ ul#sidebar {
   width: 300px;
 }
 
+#sidebar li a {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#sidebar > li:last-of-type a:hover {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#sidebar > li:first-of-type a:hover {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#terra:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.75;
+}
+#terra {
+    background: url(/img/terra.jpg) top center no-repeat;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    top: 50px;
+    left: 0px;
+    background-size: cover;
+}
+
 .nav-stacked>li+li {
   margin-top: 0px;
 }
@@ -59,6 +96,7 @@ ul#sidebar {
 
 .sidebar ul.nav li a {
   border-bottom: 1px solid #eee;
+  color: #2a6496;
 }
 
 .sidebar ul.nav ul.nav li a {
@@ -66,13 +104,53 @@ ul#sidebar {
   font-size: 0.9em;
 }
 
+.navbar-fixed-top {
+  border-bottom: 1px solid #ccc;
+  background: url('https://subtlepatterns.com/patterns/cork-wallet.png');
+  box-shadow: 0px 0px 5px #000;
+}
+
+.navbar-brand {
+  white-space: nowrap;
+  font-family: 'EB Garamond', serif;
+  position: relative;
+  max-width: none;
+  font-size: 22px;
+  color: #000;
+  margin-right: 20px;
+}
+
+.navbar-brand:after {
+  content: attr(text);
+  font-family: 'Homemade Apple', serif;
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  z-index: -1;
+  font-size: 0.9em;
+  letter-spacing: -1.75px;
+  color: #fff;
+  opacity: 0.5;
+}
+
 .navbar-fixed-top .nav > li {
   margin-right: 2px;
-  font-family: 'EB Garamond', serif;
 }
 
 .navbar-fixed-top .nav > li a {
-  font-weight: bold;
+}
+
+.main-content {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px
+}
+
+.main-content,
+ul#sidebar {
+  background: url('/img/bodybg.png');
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #333;
 }
 
 h1,h2,h3,h4 {
@@ -80,9 +158,10 @@ h1,h2,h3,h4 {
   font-weight: bold;
   position: relative;
   color: #000;
+  z-index: 1;
 }
 
-h1:before, h2:before, h3:before, h4:before {
+h1:after, h2:after, h3:after, h4:after {
   content: attr(text);
   font-family: 'Homemade Apple';
   position: absolute;
@@ -91,5 +170,19 @@ h1:before, h2:before, h3:before, h4:before {
   z-index: -1;
   font-size: 0.9em;
   letter-spacing: -1.5px;
-  color: #ECECEC;
+  color: #CCC;
+}
+
+h1:after {
+  left: -10px;
+  opacity: 0.5;
+}
+
+h2:after {
+  left: -5px;
+}
+
+h3:after {
+  left: -1px;
+  top: 65px;
 }
