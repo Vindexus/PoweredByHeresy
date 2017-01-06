@@ -26,11 +26,15 @@ body {
   }
 }
 
-h1::before, h2::before, h3::before {
+h1::before, h2::before, h3::before, h4::before {
   content:"";
   display:block;
   height:60px; /* fixed header height*/
   margin:-60px 0 0; /* negative fixed header height */
+}
+
+h4 {
+  font-size: 20px;
 }
 
 ul#sidebar {
@@ -144,6 +148,18 @@ ul#sidebar {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px
+}
+
+.main-content * {
+  position: relative;
+  z-index: 1;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  z-index: 0;
 }
 
 .main-content,
