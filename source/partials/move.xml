@@ -1,4 +1,5 @@
-<move><h3>{{name}}</h3>
+<move><h3>{{name}}</h3>{{#requires}}
+<move-requires>Requires: {{#moveKey}}{{move .}}{{/moveKey}}{{^moveKey}}{{{.}}}{{/moveKey}}</move-requires>{{/requires}}
 <move-description>{{{description}}}</move-description>
 {{#explanation}}<move-explanation>{{{.}}}</move-explanation>{{/explanation}}
 </move>

@@ -89,6 +89,7 @@ module.exports = function (Handlebars, gameData) {
     var basicKeys = gameData.basicmoves.map(function (m) {
       return m.key
     })
+    console.log('move', move)
     if(specialKeys.indexOf(move.key) >= 0) {
       move.special = true
     }

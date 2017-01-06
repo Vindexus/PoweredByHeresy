@@ -1,0 +1,2 @@
+# Faceless
+When you talk to someone you don't want to remember you, roll+{{stat 'wp'}}. On a 10+ they don't remember you, and barely remember the conversation. On a 7-9 they don't remember specifics about you, but they remember what they talked about.

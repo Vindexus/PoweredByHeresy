@@ -16,7 +16,7 @@ parser.init(c)
 parser.registerHelper(function (Handlebars, gameData) {
   Handlebars.registerHelper('statistic', function(options) {
     var stat = Handlebars.helpers.getStatistic(options)
-    return new Handlebars.SafeString('<span title="(' + stat.abbr + ') ' + stat.description + '">' + stat.name + '</span>')
+    return new Handlebars.SafeString('<abbr title="(' + stat.abbr + ') ' + stat.description + '">' + stat.name + '</abbr>')
   })
 })
 parser.registerHelper(function (Handlebars, gameData) {

@@ -60,7 +60,7 @@ var pages = {
     label: 'The GM',
     submenu: [{
       label: 'Agenda',
-      url: '#the-agenda'
+      url: '#agenda'
     }, {
       label: 'Moves',
       url: '#moves'
@@ -115,6 +115,10 @@ gameData.classes_list.forEach(function (spec) {
   pages[spec.key].submenu.push({
     label: 'Look',
     url: '#look'
+  })
+  pages[spec.key].submenu.push({
+    label: 'Drive',
+    url: '#drive'
   })
   pages[spec.key].submenu.push({
     label: 'Starting Moves',

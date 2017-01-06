@@ -12,6 +12,14 @@
   <li>Dead eyes, charming eyes, angry eyes</li><li>Black bodysuit, plain clothes, dirty rags</li><li>Buzz cut, elaborate hair, tattooed head</li><li>Slim body, athletic body, huge body</li>
 </ul>
 
+<h2>Drive</h2>
+<drives>
+  <h3>Brutal</h3>
+  <drive-description><p>Make a mess of a kill to intimidate others.</p></drive-description><h3>Shadow</h3>
+  <drive-description><p>Kill an enemy before they even know they&#x27;re in danger.</p></drive-description><h3>Reckless</h3>
+  <drive-description><p>Leap into danger before a plan is formed.</p></drive-description>
+</drives>
+
 <h2>Starting Moves</h2>
 <p>You get these moves.</p>
 <move><h3>Unsuspecting Strike</h3>
@@ -21,7 +29,27 @@
 <li>You create an advantage, +1 forward to you or an ally acting on it</li>
 <li>Reduce their armor by 1 until they repair it</li></ul></move-description>
 
+</move><move><h3>In Plain Sight</h3>
+<move-description><p>When you <strong>attempt to remain inconspicuous</strong> as someone passes by, roll+Fel. On a 10+ choose two, on a 7-9 choose one:</p>
+<ul><li>They continue moving past</li>
+<li>They won't remember your face</li></ul></move-description>
+
+</move><move><h3>Preferred Kill</h3>
+<move-description><p>You have focused your training on either hand-to-hand or ranged attacks. Choose one:</p>
+<ul><li><strong>Blademaster</strong>: Once per encounter you may reroll a move that uses your Weapon Skill.</li>
+<li><strong>Sharptshooter</strong>: Once per encounter you may reroll a move that uses your Ballistic Skill.</li></ul></move-description>
+
 </move>
 <h2>Advanced Moves</h2>
 <p>Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.</p>
-</Root>
+<move><h3>Silencing Strike</h3>
+<move-requires>Requires: Unsuspecting Strike</move-requires>
+<move-description><p>When you roll Unsuspecting Strike you always prevent your target from raising the alarm, describe how.</p></move-description>
+
+</move><move><h3>Cheap Shot</h3>
+<move-description><p>When using a precise or hand weapon, your Unsuspecting Strike deals an extra +1d6 damage.</p></move-description>
+
+</move><move><h3>Underdog</h3>
+<move-description><p>When you're outnumbered, you have +1 defense.</p></move-description>
+
+</move></Root>

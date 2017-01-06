@@ -11,6 +11,12 @@
   {{#each looks}}<li>{{.}}</li>{{/each}}
 </ul>
 
+<h2>Drive</h2>
+<drives>
+  {{#each drives}}<h3>{{name}}</h3>
+  <drive-description><p>{{description}}</p></drive-description>{{/each}}
+</drives>
+
 <h2>Starting Moves</h2>
 <p>You get these moves.</p>
 {{#each starting_moves}}

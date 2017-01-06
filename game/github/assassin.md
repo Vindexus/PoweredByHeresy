@@ -18,6 +18,20 @@ Choose one of each:
 *   Buzz cut, elaborate hair, tattooed head
 *   Slim body, athletic body, huge body
 
+## Drive
+
+### Brutal
+
+Make a mess of a kill to intimidate others.
+
+### Shadow
+
+Kill an enemy before they even know they're in danger.
+
+### Reckless
+
+Leap into danger before a plan is formed.
+
 ## Starting Moves
 
 You get these moves.
@@ -31,6 +45,34 @@ When you **get close to your target to make a surprise attack**, roll+Ag if you 
 *   You create an advantage, +1 forward to you or an ally acting on it
 *   Reduce their armor by 1 until they repair it
 
+### In Plain Sight
+
+When you **attempt to remain inconspicuous** as someone passes by, roll+Fel. On a 10+ choose two, on a 7-9 choose one:
+
+*   They continue moving past
+*   They won't remember your face
+
+### Preferred Kill
+
+You have focused your training on either hand-to-hand or ranged attacks. Choose one:
+
+*   **Blademaster**: Once per encounter you may reroll a move that uses your Weapon Skill.
+*   **Sharptshooter**: Once per encounter you may reroll a move that uses your Ballistic Skill.
+
 ## Advanced Moves
 
 Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.
+
+### Silencing Strike
+
+Requires: [Unsuspecting Strike](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#unsuspecting-strike)
+
+When you roll [Unsuspecting Strike](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#unsuspecting-strike) you always prevent your target from raising the alarm, describe how.
+
+### Cheap Shot
+
+When using a precise or hand weapon, your [Unsuspecting Strike](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#unsuspecting-strike) deals an extra +1d6 damage.
+
+### Underdog
+
+When you're outnumbered, you have +1 defense.
