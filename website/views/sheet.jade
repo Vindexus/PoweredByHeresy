@@ -14,7 +14,7 @@ html
           h1= cl.name
         .level-xp
           span.level
-            strong Level:
+            strong Level: 
             span.underline.s05
 
           span.xp
@@ -24,17 +24,26 @@ html
       table.table
         tr
           td(width="45%")
-            strong Character Name:
+            strong Character Name: 
             span.underline.s15
           td
-            strong Background:
-            span.underline.s15
+            strong Background: 
+            if background.name
+              = background.name
+            else
+              span.underline.s15
 
       table.table
         tr
           td(width="45%")
-            strong Home World:
-            span.underline.s15
+            strong Home World: 
+            if home_world.name
+              = home_world.name
+            else
+              span.underline.s15
           td
             strong Home World move: 
-            span.underline.s3
+            if home_world.move
+              = home_world.move
+            else
+              span.underline.s3

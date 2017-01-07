@@ -37,7 +37,24 @@ function renderFilePage (req, res, next) {
 /* Printable Character Sheet */
 app.get('/sheet/:class', function(req, res, next) {
   var cl = gameData[req.params.class]
-  res.render('sheet', { title: cl.name, cl: cl });
+  var data = { 
+    title: cl.name, 
+    cl: cl, 
+    background: {},
+    home_world: {}
+  }
+  if(req.query.background) {
+    if(gameData.backgrounds[req.query.background]) {
+      data.background = gameData.backgrounds[req.query.background]
+    }
+  }
+  if(req.query.home_world) {
+    if(gameData.home_worlds[req.query.home_world]) {
+      data.home_world = gameData.home_worlds[req.query.home_world]
+    }
+  }
+  console.log('data', data)
+  res.render('sheet', data);
 });
 
 app.get('/:file', renderFilePage)
