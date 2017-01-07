@@ -46,7 +46,7 @@ If you successfully hit a vulnerable opponent and attempt to disable them instea
 
 ## <a class="anchor-from-text" id="advanced-moves"></a>Advanced Moves
 
-Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.
+Whenever you level up you can take one of the following moves, or one of the moves from the general Advanced Moves list.
 
 ### <a class="anchor-from-text" id="this-ones-mine"></a>This One's Mine
 

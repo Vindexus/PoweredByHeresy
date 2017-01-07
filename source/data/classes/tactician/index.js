@@ -8,11 +8,11 @@ module.exports = {
   description: 'You see the battlefield more clearly than most, and can use this insight to help you and your allies.',
   starting_moves: {
     points_to: 'moves',
-    list: ['tactical_advantage', 'lifting_the_fog', 'armored']
+    list: ['tactical_advantage', 'lifting_the_fog', 'sense_weakness']
   },
   advanced_moves: {
     points_to: 'moves',
-    list: ['baptised_by_bullets']
+    list: ['baptised_by_bullets', 'fighters_senses']
   },
   looks: [
     'Blank eyes, fiery eyes, kind eyes', 

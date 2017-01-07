@@ -1,2 +1,2 @@
 # Spout Forbidden Lore
-Same as spout lore but you need to justify how you know that forbidden knowledge.
+When you **consult your accumulated knowledge about a forbidden topic you have learned**, roll+{{stat 'int'}}. On a 10+, the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9, the GM will only tell you something interesting—it’s on you to make it useful. Be careful, too much comfort with blasphemous knowledge can draw the eye of loyal servants of the Imperium.

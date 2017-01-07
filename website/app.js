@@ -27,6 +27,7 @@ function renderFilePage (req, res, next) {
   res.locals.pageName = pageName
   res.locals.title = page.title
   res.locals.pages = pages
+  res.locals.gameData = gameData
 
   if(page.hasOwnProperty('submenu')) {
     res.locals.submenu = page.submenu
@@ -54,7 +55,6 @@ app.get('/sheet/:class', function(req, res, next) {
       data.home_world = gameData.home_worlds[req.query.home_world]
     }
   }
-  console.log('data', data)
   res.render('sheet', data);
 });
 
@@ -74,6 +74,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
+  res.locals.pages = pages
+  res.locals.gameData = gameData
+
   next(err);
 });
 
@@ -82,6 +85,8 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
+  res.locals.pages = pages
+  res.locals.gameData = gameData
 
   // render the error page
   res.status(err.status || 500);

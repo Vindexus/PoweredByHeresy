@@ -1,0 +1,2 @@
+# Know Thy Enemy
+Your zeal for exacting the Emperor's wrath has led you to know of some of the Imperium's greatest enemies. You may {{move spout_forbidden_lore}} about known heretics, witches, and traitors.

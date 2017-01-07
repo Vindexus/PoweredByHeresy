@@ -1,0 +1,2 @@
+# Penance
+When you **quickly perform penance**, you suffer 1 wound and gain 1 {{templar.resource}}. Penance is self punishment, such as tightening a cilice, using a whip or knout, or other forms of mortification of the ﬂesh. This type of brutal penance might be painful, but it's the only way to purify your soul quickly, such as in the midst of a battle.

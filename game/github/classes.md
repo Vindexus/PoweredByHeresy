@@ -14,3 +14,7 @@ Good at finding info.
 ## <a class="anchor-from-text" id="tactician"></a>Tactician
 
 You see the battlefield more clearly than most, and can use this insight to help you and your allies.
+
+## <a class="anchor-from-text" id="templar"></a>Templar
+
+You are the embodiment of the Emperor's vengeance and Wrath is your currency.

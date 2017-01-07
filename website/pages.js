@@ -10,58 +10,66 @@ var pages = {
   },
   playingthegame: {
     label: 'Playing the Game',
-    submenu: [{
-      label: 'Playing the Game',
-      url: '/playingthegame#playing-the-game'
-    }, {
-      label: 'The Setting',
-      url: '/playingthegame#the-setting'
-    }, {
-      label: 'The Mission',
-      url: '/playingthegame#the-setting'
-    }, {
-      label: 'Making Moves',
-      url: '/playingthegame#making-moves',
-      submenu: [{
-        url: '#moves-and-dice',
-        label: 'Moves and Dice'
+    submenu: [
+      {
+        label: 'Playing the Game',
+        url: '/playingthegame#playing-the-game'
       }, {
-        url: '#moves-and-equipment',
-        label: 'Moves and Equipment'
+        label: 'The Setting',
+        url: '/playingthegame#the-setting'
       }, {
-        url: '#the-effects-of-moves',
-        label: 'The Effects of Moves'
-      }]
-    }, {
-      label: 'Damage and Wounds',
-      url: '/playingthegame#damage-and-wounds',
-      submenu: [{
-        url: '/playingthegame#damage',
-        label: 'Damage'
+        label: 'The Mission',
+        url: '/playingthegame#the-setting'
       }, {
-        url: '#wounds',
-        label: 'Wounds'
+        label: 'Making Moves',
+        url: '/playingthegame#making-moves',
+        submenu: [
+          {
+            url: '#moves-and-dice',
+            label: 'Moves and Dice'
+          }, {
+            url: '#moves-and-equipment',
+            label: 'Moves and Equipment'
+          }, {
+            url: '#the-effects-of-moves',
+            label: 'The Effects of Moves'
+          }
+        ]
       }, {
-        url: '#defense',
-        label: 'Defense'
+        label: 'Damage and Wounds',
+        url: '/playingthegame#damage-and-wounds',
+        submenu: [
+          {
+            url: '/playingthegame#damage',
+            label: 'Damage'
+          }, {
+            url: '#wounds',
+            label: 'Wounds'
+          }, {
+            url: '#defense',
+            label: 'Defense'
+          }, {
+            url: '#dealing-damage-and-inflicting-wounds',
+            label: 'Dealing Damage and Inflicting Wounds'
+          }, {
+            url: '#taking-damage-and-suffering-wounds',
+            label: 'Taking Damage and Suffering Wounds'
+          }, {
+            url: '#example-of-damage-dealing',
+            label: 'Example of Damage Dealing'
+          }
+        ]
       }, {
-        url: '#dealing-damage-and-inflicting-wounds',
-        label: 'Dealing Damage and Inflicting Wounds'
-      }, {
-        url: '#taking-damage-and-suffering-wounds',
-        label: 'Taking Damage and Suffering Wounds'
-      }, {
-        url: '#example-of-damage-dealing',
-        label: 'Example of Damage Dealing'
-      }]
-    }, {
-      label: 'Character Change',
-      url: '/playingthegame#character-change',
-      submenu: [{
-        url: '#level-up',
-        label: 'Level Up'
-      }]
-    }]
+        label: 'Character Change',
+        url: '/playingthegame#character-change',
+        submenu: [
+          {
+            url: '#level-up',
+            label: 'Level Up'
+          }
+        ]
+      }
+    ]
   },
   thegm: {
     label: 'The GM',
@@ -87,18 +95,6 @@ var pages = {
   },
   classes: {
     label: 'Classes'
-  },
-  assassin: {
-    label: 'Assassin',
-    submenu: []
-  },
-  seeker: {
-    label: 'Seeker',
-    submenu: []
-  },
-  tactician: {
-    label: 'Tactician',
-    submenu: []
   }
 }
 
@@ -114,34 +110,38 @@ movePages.forEach(function (page) {
 })
 
 
-gameData.classes_list.forEach(function (spec) {
-  pages[spec.key].submenu.push({
+gameData.classes_list.forEach(function (cl) {
+  pages[cl.key] = {
+    label: cl.name,
+    submenu: []
+  }
+  pages[cl.key].submenu.push({
     label: 'Stats',
     url: '#stats'
   })
-  pages[spec.key].submenu.push({
+  pages[cl.key].submenu.push({
     label: 'Look',
     url: '#look'
   })
-  pages[spec.key].submenu.push({
+  pages[cl.key].submenu.push({
     label: 'Drive',
     url: '#drive'
   })
-  pages[spec.key].submenu.push({
+  pages[cl.key].submenu.push({
     label: 'Starting Moves',
     url: '#starting-moves',
-    submenu: spec.starting_moves.map(function (move) {
+    submenu: cl.starting_moves.map(function (move) {
       return {
         label: move.name,
         url: '#' + slugify(move.name, {lower: true})
       }
     })
   })
-  if(spec.advanced_moves) {
-    pages[spec.key].submenu.push({
+  if(cl.advanced_moves) {
+    pages[cl.key].submenu.push({
       label: 'Advanced Moves',
       url: '#advanced-moves',
-      submenu: spec.advanced_moves.map(function (move) {
+      submenu: cl.advanced_moves.map(function (move) {
         return {
           label: move.name,
           url: '#' + slugify(move.name, {lower: true})

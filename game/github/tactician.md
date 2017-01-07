@@ -44,10 +44,10 @@ You get these moves.
 
 Each battle is different and requires a different approach. At the start of each battle, decide which tactic you are actively employing.
 
-*   Defensive: As long as you don't attempt to gain ground, you gain +1 to all Defy Danger rolls
+*   Defensive: As long as you don't attempt to gain ground, you gain +1 to all [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) rolls
 *   Reactive: Whenever you are attacked, you can immediately respond and take +1 forward
-*   Reckless: You deal +1d4 damage and take +1d4 damage
-*   Precise: While you remain focused on a single target, you gain +2 piercing against them
+*   Reckless: You deal an extra damage die, but your defense is reduced by 1
+*   Precise: While you remain focused on a single target, you inflict +1 wounds when you damage them
 
 If you change tactics you lose the benefit of the one you had chosen.
 
@@ -60,14 +60,22 @@ The fog of war can mask any battle. As you witness it unfold, **whenever you or 
 
 At the end of the battle your Insight resets to 0.
 
-### <a class="anchor-from-text" id="armored"></a>Armored
+### <a class="anchor-from-text" id="sense-weakness"></a>Sense Weakness
 
-You ignore the Clumsy tag on any armor you wear.
+When you **[Discern Realities](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#discern-realities) about a person or being**, you may add the following question to your list of options:
+
+*   What weaknesses do I see?
+
+You may spend 1 Insight to ask this as an extra question.
 
 ## <a class="anchor-from-text" id="advanced-moves"></a>Advanced Moves
 
-Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.
+Whenever you level up you can take one of the following moves, or one of the moves from the general Advanced Moves list.
 
 ### <a class="anchor-from-text" id="baptised-by-bullets"></a>Baptised By Bullets
 
 Whenever you run through enemy fire, take +1 forward to [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger).
+
+### <a class="anchor-from-text" id="fighters-sense"></a>Fighter's Sense
+
+You always start combat with +1 Insight.

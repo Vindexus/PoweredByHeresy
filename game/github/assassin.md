@@ -61,7 +61,7 @@ You have focused your training on either hand-to-hand or ranged attacks. Choose 
 
 ## <a class="anchor-from-text" id="advanced-moves"></a>Advanced Moves
 
-Whenever you level up you can take one of the following moves, or one of the moves from the general advanced moves list.
+Whenever you level up you can take one of the following moves, or one of the moves from the general Advanced Moves list.
 
 ### <a class="anchor-from-text" id="silencing-strike"></a>Silencing Strike
 
