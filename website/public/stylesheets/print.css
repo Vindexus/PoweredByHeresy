@@ -1,0 +1,102 @@
+@media print {
+  @page {
+     size: 8.5in 11.5in;
+     margin: 0.25in;
+  }
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.class-name {
+  float: left;
+}
+
+.level-xp {
+  float: right;
+  margin-top: 0.1in;
+}
+
+.level {
+  margin-right: 1in;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  margin: 0 0 0.25in;
+}
+
+span.underline {
+  display: inline-block;
+  width: 2in;
+  border-bottom: 1px solid black;
+  margin-left: 0.1in;
+}
+
+span.underline.s01 {
+  width: 0.1in;
+}
+
+span.underline.s02 {
+  width: 0.2in;
+}
+
+span.underline.s03 {
+  width: 0.3in;
+}
+
+span.underline.s04 {
+  width: 0.4in;
+}
+
+span.underline.s05 {
+  width: 0.5in;
+}
+
+span.underline.s06 {
+  width: 0.6in;
+}
+
+span.underline.s07 {
+  width: 0.7in;
+}
+
+span.underline.s08 {
+  width: 0.8in;
+}
+
+span.underline.s09 {
+  width: 0.9in;
+}
+
+span.underline.s10 {
+  width: 1in;
+}
+span.underline.s15 {
+  width: 1.5in;
+}
+span.underline.s20 {
+  width: 2in;
+}
+span.underline.s30 {
+  width: 3in;
+}
+span.underline.s40 {
+  width: 4in;
+}
+
+
+span.underline.s11 {
+  width: 1.1in;
+}
+
+table.table {
+  width: 100%;
+}

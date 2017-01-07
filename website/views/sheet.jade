@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title #{title} - Powered by Heresy
+    link(href="https://fonts.googleapis.com/css?family=EB+Garamond|Homemade+Apple" rel="stylesheet")
+    link(href="/stylesheets/print.css" rel="stylesheet")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+
+  body
+    .print-container
+
+      .header
+        .class-name
+          h1= cl.name
+        .level-xp
+          span.level
+            strong Level:
+            span.underline.s05
+
+          span.xp
+            strong XP
+            span.underline.s15
+
+      table.table
+        tr
+          td(width="45%")
+            strong Character Name:
+            span.underline.s15
+          td
+            strong Background:
+            span.underline.s15
+
+      table.table
+        tr
+          td(width="45%")
+            strong Home World:
+            span.underline.s15
+          td
+            strong Home World move: 
+            span.underline.s3

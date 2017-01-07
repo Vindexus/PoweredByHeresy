@@ -6,8 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs')
 var pages = require('./pages')
+var gameData = require('./lib/gamedata')
 
-var index = require('./routes/index');
 
 var app = express();
 
@@ -34,6 +34,12 @@ function renderFilePage (req, res, next) {
   res.render('file')
 }
 
+/* Printable Character Sheet */
+app.get('/sheet/:class', function(req, res, next) {
+  var cl = gameData[req.params.class]
+  res.render('sheet', { title: cl.name, cl: cl });
+});
+
 app.get('/:file', renderFilePage)
 app.get('/', renderFilePage)
 
@@ -44,9 +50,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', index);
-
 
 
 // catch 404 and forward to error handler

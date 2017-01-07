@@ -1,7 +1,7 @@
 var slugify = require('slug')
 var path = require('path')
 var fs = require('fs')
-var gameData = JSON.parse(fs.readFileSync(path.join(__dirname, 'game_data.json'), 'utf8'))
+var gameData = require('./lib/gamedata')
 
 var pages = {
   introduction: {
