@@ -12,16 +12,16 @@ var pages = {
     label: 'Playing the Game',
     submenu: [{
       label: 'Playing the Game',
-      url: '#playing-the-game'
+      url: '/playingthegame#playing-the-game'
     }, {
       label: 'The Setting',
-      url: '#the-setting'
+      url: '/playingthegame#the-setting'
     }, {
       label: 'The Mission',
-      url: '#the-setting'
+      url: '/playingthegame#the-setting'
     }, {
       label: 'Making Moves',
-      url: '#making-moves',
+      url: '/playingthegame#making-moves',
       submenu: [{
         url: '#moves-and-dice',
         label: 'Moves and Dice'
@@ -34,9 +34,9 @@ var pages = {
       }]
     }, {
       label: 'Damage and Wounds',
-      url: '#damage-and-wounds',
+      url: '/playingthegame#damage-and-wounds',
       submenu: [{
-        url: '#damage',
+        url: '/playingthegame#damage',
         label: 'Damage'
       }, {
         url: '#wounds',
@@ -53,6 +53,13 @@ var pages = {
       }, {
         url: '#example-of-damage-dealing',
         label: 'Example of Damage Dealing'
+      }]
+    }, {
+      label: 'Character Change',
+      url: '/playingthegame#character-change',
+      submenu: [{
+        url: '#level-up',
+        label: 'Level Up'
       }]
     }]
   },

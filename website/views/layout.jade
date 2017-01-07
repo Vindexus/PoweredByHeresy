@@ -8,7 +8,7 @@ html
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
     link(href="/stylesheets/style.css" rel="stylesheet")
     meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
-
+    script(src="/javascripts/main.js" type="text/javascript")
   body
     #terra
     .navbar.navbar-fixed-top
@@ -27,14 +27,9 @@ html
                 button.btn.dropdown-toggle.navbar-btn.btn-default(data-toggle="dropdown")
                   span.caret
                 ul.dropdown-menu
-                  li
-                    a(href='/playingthegame#the-setting') The Setting
-                  li
-                    a(href='/playingthegame#the-mission') The Mission
-                  li
-                    a(href='/playingthegame#making-moves') Making Moves
-                  li
-                    a(href='/playingthegame#damage-and-wounds') Damage and Wounds
+                  each item,key in pages.playingthegame.submenu
+                    li
+                      a(href=item.url)= item.label
             li.dropdown
 
             -active = ['moves', 'basicmoves', 'specialmoves', 'advancedmoves'].indexOf(pageName) >= 0 ? 'active' : ''

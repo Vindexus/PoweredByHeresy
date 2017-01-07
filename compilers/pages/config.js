@@ -14,6 +14,6 @@ module.exports = config = {
     'section-title': 'h2',
     'name': 'h3'
     },
-    idsFromText: ['h1,h2,h3']
+    anchorsFromText: ['h1,h2,h3,h4']
   }
 }

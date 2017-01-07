@@ -26,6 +26,7 @@ function renderFilePage (req, res, next) {
   res.locals.html = html
   res.locals.pageName = pageName
   res.locals.title = page.title
+  res.locals.pages = pages
 
   if(page.hasOwnProperty('submenu')) {
     res.locals.submenu = page.submenu

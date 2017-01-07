@@ -26,11 +26,11 @@ body {
   }
 }
 
-h1::before, h2::before, h3::before, h4::before {
-  content:"";
-  display:block;
-  height:60px; /* fixed header height*/
-  margin:-60px 0 0; /* negative fixed header height */
+a.anchor-from-text {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
 }
 
 h4 {
@@ -194,7 +194,7 @@ h1:after, h2:after, h3:after, h4:after {
   font-family: 'Homemade Apple';
   position: absolute;
   left: 0px;
-  top: 68px;
+  top: 8px;
   z-index: -1;
   font-size: 0.9em;
   letter-spacing: -1.5px;
@@ -212,5 +212,24 @@ h2:after {
 
 h3:after {
   left: -1px;
-  top: 65px;
+  top: 5px;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+    
+.flash {
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
 }
