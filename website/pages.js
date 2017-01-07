@@ -96,8 +96,8 @@ var pages = {
     label: 'Seeker',
     submenu: []
   },
-  warrior: {
-    label: 'Warrior',
+  tactician: {
+    label: 'Tactician',
     submenu: []
   }
 }

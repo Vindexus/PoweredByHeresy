@@ -1,9 +1,11 @@
 module.exports = {
-  name: 'Warrior',
+  name: 'Tactician',
   base_max_wounds: 6,
   load: 10,
-  key: 'warrior',
-  description: 'Good at fighting',
+  key: 'tactician',
+  resource: 'Insight',
+  resources: 'Insight',
+  description: 'You see the battlefield more clearly than most, and can use this insight to help you and your allies.',
   starting_moves: {
     points_to: 'moves',
     list: ['tactical_advantage', 'lifting_the_fog', 'armored']

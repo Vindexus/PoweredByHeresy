@@ -11,6 +11,6 @@ Good at fighting sneaky.
 
 Good at finding info.
 
-## <a class="anchor-from-text" id="warrior"></a>Warrior
+## <a class="anchor-from-text" id="tactician"></a>Tactician
 
-Good at fighting
+You see the battlefield more clearly than most, and can use this insight to help you and your allies.
