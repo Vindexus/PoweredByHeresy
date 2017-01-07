@@ -5,9 +5,9 @@ Good at fighting sneaky.
 
 ## Stats
 
-Your starting Max Wounds is +T
+Your starting Max Wounds is 4+T
 
-Your load is +S.
+Your load is 5+S.
 
 ## Look
 

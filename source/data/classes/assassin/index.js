@@ -1,6 +1,8 @@
 module.exports = {
   name: 'Assassin',
   key: 'assassin',
+  load: 5,
+  base_max_wounds: 4,
   description: 'Good at fighting sneaky.',
   starting_moves: {
     points_to: 'moves',

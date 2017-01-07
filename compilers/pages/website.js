@@ -34,12 +34,15 @@ parser.registerHelper(function (Handlebars, gameData) {
 parser.registerHelper(function (Handlebars, gameData) {
   Handlebars.registerHelper('move', function(options) {
     var move = Handlebars.helpers.getMove(options)
-    var base = 'moves'
-    if(move.special) {
-      page = 'specialmoves'
-    }
-    else {
-      page = 'basicmoves'
+
+    var page = 'basicmoves'
+    if(move.page) {
+      if(['basic', 'special', 'advanced'].indexOf(move.page) >= 0) {
+        page = move.page + 'moves'
+      }
+      else {
+        page = move.page
+      }
     }
     return new Handlebars.SafeString('<a href="/' + page + '#' + slugify(move.name, {lower: true}) + '">' + move.name + '</a>')
   })

@@ -13,4 +13,30 @@ var config = {
 }
 
 parser.init(config)
+parser.registerStep(function (data) {
+  var lists = ['starting_moves', 'advanced_moves']
+  console.log('data.classes_list', data.classes_list)
+
+  function movesPages (l, page) {
+    l.forEach(function (moveKey) {
+      data.moves[moveKey].page = page
+    })
+  }
+
+  data.classes_list.forEach(function (classKey) {
+    var cl = data.classes[classKey]
+    console.log('cl.name', cl.name)
+    lists.forEach(function (list) {
+      if(cl[list]) {
+        movesPages(cl[list], cl.key)
+      }
+    })
+  })
+
+  movesPages(data.basicmoves, 'basic')
+  movesPages(data.specialmoves, 'special')
+  movesPages(data.advancedmoves, 'advanced')
+
+  return data
+})
 parser.run(config)

@@ -159,11 +159,11 @@ ul#sidebar {
 .main-content {
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 25px
+  padding-bottom: 25px;
+  z-index: 0;
 }
 
 .main-content * {
-  position: relative;
   z-index: 1;
 }
 
@@ -171,7 +171,7 @@ ul#sidebar {
 .main-content h2,
 .main-content h3,
 .main-content h4 {
-  z-index: 0;
+  z-index: -1;
 }
 
 .main-content,
