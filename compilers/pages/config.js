@@ -8,7 +8,7 @@ module.exports = config = {
   partialsDir: path.resolve(path.join(source, 'partials')),
   helperFiles: [path.resolve(__dirname, 'helpers')],
   htmlStepConfig: {
-    protectedNodeNames: ['a', 'input', 'div', 'ul', 'p', 'li', 'span', 'strong', 'em', 'nl', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'thead', 'tbody', 'th', 'td', 'blockquote', 'abbr'],
+    protectedNodeNames: ['a', 'br', 'input', 'div', 'ul', 'ol', 'p', 'li', 'span', 'strong', 'em', 'nl', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'thead', 'tbody', 'th', 'td', 'blockquote', 'abbr'],
     nodesToNodes: {
     'class-name': 'h1',
     'section-title': 'h2',

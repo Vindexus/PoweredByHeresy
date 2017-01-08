@@ -96,6 +96,9 @@ var pages = {
     }, {
       label: 'Moves',
       url: '#moves'
+    }, {
+      label: 'Missions',
+      url: '#missions'
     }]
   },
   specialmoves: {
