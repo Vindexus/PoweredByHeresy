@@ -20,6 +20,22 @@ Choose one of each:
 
 ## Drive
 
+### Bad-Cop
+
+Force subjects to reveal their truth to you.
+
+### Unchecked
+
+Give in to your rage and let loose.
+
+### Good-Cop
+
+Get suspects to open up without using violence.
+
+### Connect The Dots
+
+Connect the clues to find a lead.
+
 ## Starting Moves
 
 You get these moves.
