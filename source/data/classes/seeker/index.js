@@ -17,5 +17,23 @@ module.exports = {
   advanced_moves: {
     points_to: 'moves',
     list: ['this_ones_mine', 'torturer']
+  },
+  drives: {
+    bad_cop: {
+      name: 'Bad-Cop',
+      description: 'Force subjects to reveal their truth to you.'
+    },
+    unchecked: {
+      name: 'Unchecked',
+      description: 'Give in to your rage and let loose.'
+    },
+    good_cop: {
+      name: 'Good-Cop',
+      description: 'Get suspects to open up without using violence.'
+    },
+    connect_the_dots: {
+      name: 'Connect The Dots',
+      description: 'Connect the clues to find a lead.'
+    },
   }
 }

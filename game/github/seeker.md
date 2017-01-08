@@ -20,6 +20,22 @@ Choose one of each:
 
 ## <a class="anchor-from-text" id="drive"></a>Drive
 
+### <a class="anchor-from-text" id="bad-cop"></a>Bad-Cop
+
+Force subjects to reveal their truth to you.
+
+### <a class="anchor-from-text" id="unchecked"></a>Unchecked
+
+Give in to your rage and let loose.
+
+### <a class="anchor-from-text" id="good-cop"></a>Good-Cop
+
+Get suspects to open up without using violence.
+
+### <a class="anchor-from-text" id="connect-the-dots"></a>Connect The Dots
+
+Connect the clues to find a lead.
+
 ## <a class="anchor-from-text" id="starting-moves"></a>Starting Moves
 
 You get these moves.

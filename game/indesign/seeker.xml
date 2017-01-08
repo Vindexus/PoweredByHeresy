@@ -21,7 +21,11 @@
 <section>
 <h2>Drive</h2>
 <drives>
-  
+  <h3>Bad-Cop</h3>
+  <drive-description><p>Force subjects to reveal their truth to you.</p></drive-description><h3>Unchecked</h3>
+  <drive-description><p>Give in to your rage and let loose.</p></drive-description><h3>Good-Cop</h3>
+  <drive-description><p>Get suspects to open up without using violence.</p></drive-description><h3>Connect The Dots</h3>
+  <drive-description><p>Connect the clues to find a lead.</p></drive-description>
 </drives>
 </section>
 
