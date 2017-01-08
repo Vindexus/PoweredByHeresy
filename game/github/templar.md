@@ -51,3 +51,5 @@ When you **kill an enemy that has done you harm**, you gain 1 Wrath.
 ### <a class="anchor-from-text" id="know-thy-enemy"></a>Know Thy Enemy
 
 Your zeal for exacting the Emperor's wrath has led you to know of some of the Imperium's greatest enemies. You may [Spout Forbidden Lore](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#spout-forbidden-lore) about known heretics, witches, and traitors.
+
+This class uses text and moves from the Templar class from Grim World.

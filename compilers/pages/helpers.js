@@ -5,11 +5,13 @@ module.exports = function (Handlebars, gameData) {
   Handlebars.registerHelper('getStatistic', function (options) {
     var err = {name: 'ERROR in getStatistic'}
     if(!options) {
+      err.name += ' !options'
       return err
     }
     var key = typeof(options) == 'string' ? options : options.fn(this)
     var stat = gameData.stats[key]
     if(!stat) {
+      err.name = ' !stat ' + key
       return err
     }
     return stat
@@ -26,6 +28,28 @@ module.exports = function (Handlebars, gameData) {
       return err
     }
     return tag
+  })
+
+  Handlebars.registerHelper('getTerm', function (options, n) {
+    var err = {name: 'ERROR in getTerm'}
+    if(!options) {
+      err.name = 'ERROR in getTerm !options'
+      return err
+    }
+    var key = typeof(options) == 'string' ? options : options.fn(this)
+    var term = gameData.terms[key]
+    if(!term) {
+      err.name = 'No term with key: "' + key + '"'
+      return err
+    }
+    if(term.n) {
+      if(!n) {
+        n = 'n'
+      }
+      term.name = term.name.split('{n}').join(n)
+      term.description = term.description.split('{n}').join(n)
+    }
+    return term
   })
 
   Handlebars.registerHelper('getClass', function (options) {
@@ -89,7 +113,7 @@ module.exports = function (Handlebars, gameData) {
     var basicKeys = gameData.basicmoves.map(function (m) {
       return m.key
     })
-    console.log('move', move)
+
     if(specialKeys.indexOf(move.key) >= 0) {
       move.special = true
     }
@@ -121,6 +145,11 @@ module.exports = function (Handlebars, gameData) {
   Handlebars.registerHelper('stat', function(options) {
     var stat = Handlebars.helpers.getStatistic(options)
     return new Handlebars.SafeString(stat.abbr)
+  })
+
+  Handlebars.registerHelper('term', function(options, n) {
+    var term = Handlebars.helpers.getTerm(options, n)
+    return new Handlebars.SafeString(term.name)
   })
 
   /* 

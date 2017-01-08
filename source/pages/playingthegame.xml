@@ -72,7 +72,7 @@ Most moves include the phrase “roll+x” where “x” is one of your characte
 
 <p>Say "roll with <strong>edge</strong>." That means that after you roll the move, you may choose to reroll one of the die.</p>
 
-<p>Say "**reroll**." That means you take all the dice you just rolled for a move and roll them all again. You use the same modifiers as the first roll, including any +x forwards, and the second result stands.</p>
+<p>Say "<strong>reroll</strong>." That means you take all the dice you just rolled for a move and roll them all again. You use the same modifiers as the first roll, including any +x forwards, and the second result stands.</p>
 
 <p>Give you “<strong>hold</strong>.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can't spend your hold from {{move defend}} on {{move discern_realities}} or vice versa, for example.</p>
 

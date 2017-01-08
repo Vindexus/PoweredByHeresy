@@ -39,4 +39,4 @@
 {{#each advanced_moves}}
 {{>move .}}
 {{/each}}
-</section
+</section>

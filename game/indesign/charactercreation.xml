@@ -35,31 +35,31 @@
 <h3>Death World</h3>
 <p>Planet where everything wants to kill you.</p>
 <p><strong>World Move:</strong> Death World characters gain +1 on all Last Breath rolls.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Agility or +1 Toughness, to a max of +2.</p>
 <h3>Feral World</h3>
 <p>A planet with very little technology.</p>
-<p><strong>World Move:</strong> Feral World characters +1 piercing when using primitive weapons.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>World Move:</strong> </p>
+<p><strong>Choose one:</strong> +1 Strength or +1 Toughness, to a max of +2.</p>
 <h3>Forge World</h3>
 <p>Manufactorums cover the landscape.</p>
-<p><strong>World Move:</strong> Forge World characters replace one of their d6s with a d8 when rolling Tech-Use.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>World Move:</strong> Forge World characters replace one of their d6s with a d8 when rolling Basic Tech-Use.</p>
+<p><strong>Choose one:</strong> +1 Intelligence or +1 Toughness, to a max of +2.</p>
 <h3>Highborn</h3>
 <p>You are the member of a noble house, or powerful family.</p>
 <p><strong>World Move:</strong> Highborn characters gain +1 to any Defy Danger or Parley rolls that involve talking to members of the Imperium.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Fellowship or +1 Intelligence, to a max of +2.</p>
 <h3>Hive World</h3>
 <p>Hab blocks and cityscape cover much of this planet.</p>
 <p><strong>World Move:</strong> Hive World characters gain +1 to any Last Breath rolls when moving through crowds.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Agility or +1 Perception, to a max of +2.</p>
 <h3>Shrine World</h3>
 <p>This world is dedicated to the veneration of the God-Emperor and his saints.</p>
 <p><strong>World Move:</strong> Shrine World characters can reroll any double 1s result once per session.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Fellowship or +1 Willpower, to a max of +2.</p>
 <h3>Voidborn</h3>
 <p>You were born in the cold of space aboard a ship.</p>
 <p><strong>World Move:</strong> Voidborn gain +1 to any rolls to resist warp energy.</p>
-<p><strong>Choose one:</strong> +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.</p>
+<p><strong>Choose one:</strong> +1 Intelligence or +1 Willpower, to a max of +2.</p>
 
 <h2>Modify Your Stats</h2>
 <p>Change one of your stats based on the bonus offered by your Home World.</p>
@@ -88,4 +88,6 @@
 <tr><td>8</td><td>Lambdus</td><td>Rhia</td><td>Spider</td></tr>
 </tbody></table>
 
-<blockquote class="first-person">I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.</blockquote></Root>
+<blockquote class="first-person">I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.</blockquote>
+
+<credit>The format for this page is taken from Dungeon World. The Class+Home World+Background combination is adpated from Dark Heresy 2nd edition.</credit></Root>

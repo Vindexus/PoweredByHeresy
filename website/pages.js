@@ -71,6 +71,23 @@ var pages = {
       }
     ]
   },
+  charactercreation: {
+    label: 'Character Creation',
+    submenu: [
+      {
+        label: 'Choose a Class',
+        url: '#choose-a-class'
+      },
+      {
+        label: 'Choose a Background',
+        url: '#choose-a-background'
+      },
+      {
+        label: 'Choose a Home World',
+        url: '#choose-a-home-world'
+      }
+    ]
+  },
   thegm: {
     label: 'The GM',
     submenu: [{

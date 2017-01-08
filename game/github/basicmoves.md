@@ -9,9 +9,9 @@ The extra damage die you roll will be the largest size that you are already roll
 
 ### <a class="anchor-from-text" id="fire-for-effect"></a>Fire for Effect
 
-When you **fire your ranged weapon to deal damage**, roll+BS and expend a use of your weapon. On a 10+ deal your damage. At your option you may expend another use of your weapon to add +1d4 damage. On a 7-9 you deal your damage and choose one:
+When you **fire your ranged weapon to deal damage**, roll+BS and expend a use of your weapon. On a 10+ deal your damage. At your option you may expend another use of your weapon to add an extra damage die. On a 7-9 you deal your damage and choose one:
 
-*   You take what you can get, deal -1d6 damage
+*   You take what you can get, you target gets +1 defense against this attack
 *   You need to take some more shots, expend another use of your weapon
 *   You have to place yourself or a teammate in danger, the GM will tell you how
 
@@ -61,12 +61,12 @@ On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7�
 When you **stand in defense of a person, item, or location** under attack, roll+T. On a 10+, hold 3\. On a 7–9, hold 1\. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:
 
 *   Redirect an attack from the thing you defend to yourself
-*   Halve the attack's effect or damage
+*   Halve the attack's effect or wounds inflicted
 *   Open up the attacker to an ally giving that ally +1 forward against the attacker
 
 ### <a class="anchor-from-text" id="discern-realities"></a>Discern Realities
 
-When you closely study a situation or person, roll+Wis. On a 10+, ask the GM 3 questions from the list below. On a 7–9, ask 1.
+When you closely study a situation or person, roll+Per. On a 10+, ask the GM 3 questions from the list below. On a 7–9, ask 1.
 
 Either way, take +1 forward when acting on the answers.
 
@@ -92,3 +92,5 @@ When you attempt to **use an advanced piece of technology, or repair a simple pi
 ### <a class="anchor-from-text" id="aid-or-interfere"></a>Aid or Interfere
 
 When you **help or hinder someone**, describe how and roll+bond with them. On a 10+ add +2 or -2 to their roll, your choice. On a 7-9 add +1 or -1 to their roll, your choice, but you open yourself up to danger, retribution, or cost.
+
+Many of these moves are taken directly from Dungeon World.

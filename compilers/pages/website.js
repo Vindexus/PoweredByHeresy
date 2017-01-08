@@ -32,6 +32,13 @@ parser.registerHelper(function (Handlebars, gameData) {
 })
 
 parser.registerHelper(function (Handlebars, gameData) {
+  Handlebars.registerHelper('term', function(options, n) {
+    var term = Handlebars.helpers.getTerm(options, n)
+    return new Handlebars.SafeString('<abbr title="' + term.description + '">' + term.name + '</abbr>')
+  })
+})
+
+parser.registerHelper(function (Handlebars, gameData) {
   Handlebars.registerHelper('move', function(options) {
     var move = Handlebars.helpers.getMove(options)
 

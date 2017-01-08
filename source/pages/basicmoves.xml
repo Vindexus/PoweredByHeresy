@@ -1,2 +1,4 @@
 <h1>Basic Moves</h1>
 {{#each basicmoves}}{{>move}}{{/each}}
+
+<credit>Many of these moves are taken directly from Dungeon World.</credit>

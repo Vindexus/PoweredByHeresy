@@ -6,11 +6,11 @@ module.exports = {
   description: 'Good at fighting sneaky.',
   starting_moves: {
     points_to: 'moves',
-    list: ['unsuspecting_strike', 'blend_in', 'preferred_kill']
+    list: ['unsuspecting_strike', 'blend_in', 'move_silently']
   },
   advanced_moves: {
     points_to: 'moves',
-    list: ['silencing_strike', 'cheap_shot', 'underdog', 'blend_in']
+    list: ['silencing_strike', 'cheap_shot', 'underdog', 'blend_in', 'practiced_kill']
   },
   looks: [
     'Dead eyes, charming eyes, angry eyes',

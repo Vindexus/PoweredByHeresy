@@ -5,7 +5,7 @@ The following moves are available to all acolytes to take when they level up.
 
 ### <a class="anchor-from-text" id="rapid-reload"></a>Rapid Reload
 
-When you attempt to reload quickly roll+Ag. On a 10+ you reload your weapon instantly - reset its uses and reduce your ammo by one. On a 7-9 the same in addition to what that the GM says. On a 6- you fumble your reload.
+When you attempt to reload quickly roll+Ag. On a 10+ you reload your weapon instantly and may act instantly - reset its uses and reduce your ammo by one. On a 7-9 the same in addition to what that the GM says. On a 6- you fumble your reload.
 
 ### <a class="anchor-from-text" id="spout-forbidden-lore"></a>Spout Forbidden Lore
 

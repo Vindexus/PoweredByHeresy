@@ -53,31 +53,31 @@ Planet where everything wants to kill you.
 
 **World Move:** Death World characters gain +1 on all [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls.
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Agility or +1 Toughness, to a max of +2.
 
 ### <a class="anchor-from-text" id="feral-world"></a>Feral World
 
 A planet with very little technology.
 
-**World Move:** Feral World characters +1 piercing when using primitive weapons.
+**World Move:**
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Strength or +1 Toughness, to a max of +2.
 
 ### <a class="anchor-from-text" id="forge-world"></a>Forge World
 
 Manufactorums cover the landscape.
 
-**World Move:** Forge World characters replace one of their d6s with a d8 when rolling Tech-Use.
+**World Move:** Forge World characters replace one of their d6s with a d8 when rolling [Basic Tech-Use](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#basic-tech-use).
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Intelligence or +1 Toughness, to a max of +2.
 
 ### <a class="anchor-from-text" id="highborn"></a>Highborn
 
 You are the member of a noble house, or powerful family.
 
-**World Move:** Highborn characters gain +1 to any [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) or Parley rolls that involve talking to members of the Imperium.
+**World Move:** Highborn characters gain +1 to any [Defy Danger](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#defy-danger) or [Parley](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#parley) rolls that involve talking to members of the Imperium.
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Fellowship or +1 Intelligence, to a max of +2.
 
 ### <a class="anchor-from-text" id="hive-world"></a>Hive World
 
@@ -85,7 +85,7 @@ Hab blocks and cityscape cover much of this planet.
 
 **World Move:** Hive World characters gain +1 to any [Last Breath](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/specialmoves.md#last-breath) rolls when moving through crowds.
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Agility or +1 Perception, to a max of +2.
 
 ### <a class="anchor-from-text" id="shrine-world"></a>Shrine World
 
@@ -93,7 +93,7 @@ This world is dedicated to the veneration of the God-Emperor and his saints.
 
 **World Move:** Shrine World characters can reroll any double 1s result once per session.
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Fellowship or +1 Willpower, to a max of +2.
 
 ### <a class="anchor-from-text" id="voidborn"></a>Voidborn
 
@@ -101,7 +101,7 @@ You were born in the cold of space aboard a ship.
 
 **World Move:** Voidborn gain +1 to any rolls to resist warp energy.
 
-**Choose one:** +1 ERROR in getStatistic or +1 ERROR in getStatistic, to a max of +2.
+**Choose one:** +1 Intelligence or +1 Willpower, to a max of +2.
 
 ## <a class="anchor-from-text" id="modify-your-stats"></a>Modify Your Stats
 
@@ -236,3 +236,5 @@ Select a name for your character. Make something up on your own or roll on the t
 </table>
 
 > I'd like to go by a nickname, but I'm not sure what I want so I'll roll on the table. I rolled a 7 so I'll go by Carver.
+
+The format for this page is taken from Dungeon World. The Class+Home World+Background combination is adpated from Dark Heresy 2nd edition.

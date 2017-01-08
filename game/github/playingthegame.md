@@ -41,7 +41,7 @@ The GM's enemies, NPCs, and other assorted heresies also have moves, but they wo
 
 Most moves include the phrase “roll+x” where “x” is one of your character's statistics (T for example). Each statistic has its own short form, for example Fellowship is shortened to Fel. Unless the move tells you otherwise, that “roll” always means that you roll two six-sided dice and add their results to the value of the statistic. Some moves will have you add some other value to your roll instead of an ability modifier.
 
-> I'm making a move that asks me to roll+undefined and my ERROR in getStatistic is +1\. I rolled two six-sided dice, got a one and a four. My total is six.
+> I'm making a move that asks me to roll+undefined and my !stat s is +1\. I rolled two six-sided dice, got a one and a four. My total is six.
 
 The results always fall into three basic categories. A total of 10 or higher (written 10+) is the best outcome. A total of 7–9 is still a success but it comes with compromises or cost. A 6 or lower is trouble, but you also get to mark XP.
 

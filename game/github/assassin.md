@@ -41,9 +41,9 @@ You get these moves.
 When you **get close to your target to make a surprise attack**, roll+Ag if you use stealth or speed, or roll+Fel if you use deception or charm. On a 10+ choose two. On a 7-9 choose one.
 
 *   You don't get into melee with them
-*   You deal your damage + 1d6
+*   You deal your damage plus an extra damage die
 *   You create an advantage, +1 forward to you or an ally acting on it
-*   Reduce their armor by 1 until they repair it
+*   Reduce their defense by 1 until they repair it
 
 ### <a class="anchor-from-text" id="blend-in"></a>Blend In
 
@@ -52,12 +52,14 @@ When you **stay still to remain inconspicuous** as someone passes by, roll+Fel. 
 *   They continue moving past
 *   They won't remember your face
 
-### <a class="anchor-from-text" id="preferred-kill"></a>Preferred Kill
+### <a class="anchor-from-text" id="move-silently"></a>Move Silently
 
-You have focused your training on either hand-to-hand or ranged attacks. Choose one:
+When you **move through the shadows across a dangerous or difficult path**, roll+Ag. On a 10+ choose three, on a 7-9 choose two:
 
-*   **Blademaster**: Once per encounter you may reroll a move that uses your Weapon Skill.
-*   **Sharptshooter**: Once per encounter you may reroll a move that uses your Ballistic Skill.
+*   Your steps are completely silent
+*   You leave no trace of your passage
+*   You move with near superhuman speed and grace
+*   You are not harmed or hindered while you move
 
 ## <a class="anchor-from-text" id="advanced-moves"></a>Advanced Moves
 
@@ -83,3 +85,9 @@ When you **stay still to remain inconspicuous** as someone passes by, roll+Fel. 
 
 *   They continue moving past
 *   They won't remember your face
+
+### <a class="anchor-from-text" id="practiced-kill"></a>Practiced Kill
+
+When you use [Unsuspecting Strike](https://github.com/Vindexus/PoweredByHeresy/blob/master/game/github/basicmoves.md#unsuspecting-strike) you may roll with precision.
+
+This class uses text from The Assassin compendium class by Peter Johansend in Grim World.

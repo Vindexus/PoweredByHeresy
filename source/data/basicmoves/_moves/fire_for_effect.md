@@ -1,6 +1,6 @@
 # Fire for Effect
-When you **fire your ranged weapon to deal damage**, roll+{{stat 'bs'}} and expend a use of your weapon. On a 10+ deal your damage. At your option you may expend another use of your weapon to add +1d4 damage. On a 7-9 you deal your damage and choose one:
- - You take what you can get, deal -1d6 damage
+When you **fire your ranged weapon to deal damage**, roll+{{stat 'bs'}} and expend a use of your weapon. On a 10+ deal your damage. At your option you may expend another use of your weapon to add an extra damage die. On a 7-9 you deal your damage and choose one:
+ - You take what you can get, you target gets {{term 'ndefense' '+1'}} against this attack
  - You need to take some more shots, expend another use of your weapon
  - You have to place yourself or a teammate in danger, the GM will tell you how
 ---
