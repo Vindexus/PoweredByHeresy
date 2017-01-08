@@ -1,6 +1,6 @@
 compilers/data/node_modules
 compilers/pages/node_modules
-compilers/data/npm-debug.log
-compilers/pages/npm-debug.log
+compilers/data/npm-debug.log*
+compilers/pages/npm-debug.log*
 website/node_modules
-website/npm-debug.log
+website/npm-debug.log*

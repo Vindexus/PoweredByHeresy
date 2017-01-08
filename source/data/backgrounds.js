@@ -17,7 +17,7 @@ module.exports = {
   },
   'imperial_guard': {
     name: 'Imperial Guard',
-    description: 'Space soldiers.'
+    description: 'The Hammer of the Emperor.'
   },
   'outcast': {
     name: 'Outcast',
