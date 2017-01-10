@@ -9,7 +9,7 @@ var pages = require('./pages')
 var gameData = require('./lib/gamedata')
 
 var handlebars = require('handlebars')
-var handlebarsHelpers = require('../compilers/pages/helpers')
+var handlebarsHelpers = require('./lib/handlebars_helpers')
 
 var app = express();
 
