@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 @media print {
   @page {
      size: 8.5in 11.5in;
@@ -9,8 +58,47 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
-h1 {
+* {
+  box-sizing: border-box;
+}
+
+.print-container {
+  width: 11.5in;
+}
+
+h1, h2, h3, h4 {
   margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  padding: 0.1in 0 0 0.25in;
+  list-style: outside disc;
+}
+
+section {
+  margin-top: 0.25in;
 }
 
 .class-name {
@@ -37,7 +125,28 @@ span.underline {
   display: inline-block;
   width: 2in;
   border-bottom: 1px solid black;
-  margin-left: 0.1in;
+  height: 0.25in;
+}
+
+span.underline.full {
+  width: 100%;
+}
+
+span.checkbox {
+  width: 0.15in;
+  height: 0.15in;
+  border: 1px solid #000;
+  display: inline-block;
+  margin-right: 0.05in;
+  position: relative;
+}
+
+span.checkbox.checked:before {
+  content: "✓";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 11pt;
 }
 
 span.underline.s01 {
@@ -88,8 +197,14 @@ span.underline.s20 {
 span.underline.s30 {
   width: 3in;
 }
+span.underline.s35 {
+  width: 3.5in;
+}
 span.underline.s40 {
   width: 4in;
+}
+span.underline.s50 {
+  width: 5in;
 }
 
 
@@ -99,4 +214,68 @@ span.underline.s11 {
 
 table.table {
   width: 100%;
+}
+
+table.table td,
+table.table th {
+  padding: 2pt 1pt;
+}
+
+table.table.bordered {
+  border-spacing: 1px;
+  background: #000;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+}
+
+table.statistics {
+  margin: 0.25in 0;
+}
+
+table.statistics th {
+  width: 11.11%;
+}
+
+table.bordered td,
+table.bordered th {
+  background: #fff;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+table .stat-name {
+  font-size: 12pt;
+}
+
+table .stat-abbr {
+  font-size: 20pt;
+}
+
+table td.text-box {
+  height: 0.5in;
+}
+
+.equipment {
+  float: left;
+  height: 6in;
+  width: 2.8in;
+}
+
+.moves {
+  width: 8in;
+  float: right;
+}
+
+.move {
+  float: left;
+  width: 50%;
+  padding: 0.1in;
+}
+
+.move ul {
+  margin: 0.01in 0 0 0.02in;
+}
+
+h3.move-name {
+  margin: 0 0 0.1in 0;
 }

@@ -8,8 +8,13 @@ var fs = require('fs')
 var pages = require('./pages')
 var gameData = require('./lib/gamedata')
 
+var handlebars = require('handlebars')
+var handlebarsHelpers = require('../compilers/pages/helpers')
 
 var app = express();
+
+//Loads in some helpers
+handlebarsHelpers(handlebars, gameData)
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -39,12 +44,22 @@ function renderFilePage (req, res, next) {
 /* Printable Character Sheet */
 app.get('/sheet/:class', function(req, res, next) {
   var cl = gameData[req.params.class]
+  if(!cl) {
+    res.status(500)
+    return res.render('error')
+  }
   var data = { 
     title: cl.name, 
     cl: cl, 
     background: {},
-    home_world: {}
+    home_world: {},
+    statistics: gameData.statistics,
+    starting_moves: cl.starting_moves,
+    advanced_moves: cl.advanced_moves,
+    Handlebars: handlebars,
+    gameData: gameData
   }
+
   if(req.query.background) {
     if(gameData.backgrounds[req.query.background]) {
       data.background = gameData.backgrounds[req.query.background]

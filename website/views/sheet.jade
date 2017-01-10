@@ -23,7 +23,7 @@ html
 
       table.table
         tr
-          td(width="45%")
+          td(width="40%")
             strong Character Name: 
             span.underline.s15
           td
@@ -31,11 +31,11 @@ html
             if background.name
               = background.name
             else
-              span.underline.s15
+              span.underline.s3
 
       table.table
         tr
-          td(width="45%")
+          td(width="40%")
             strong Home World: 
             if home_world.name
               = home_world.name
@@ -46,4 +46,76 @@ html
             if home_world.move
               = home_world.move
             else
-              span.underline.s3
+              span.underline.s35
+
+      table.table
+        tr
+          td(width="40%")
+            strong Character Name: 
+            span.underline.s15
+          td
+            strong Drive:
+            span.underline.s35
+
+      table.table.bordered.statistics
+        tr
+          each stat in statistics
+            th
+              .stat-name= stat.name
+              .stat-abbr= stat.abbr
+        tr
+          each stat in statistics
+            td.text-box
+
+      table.table
+        tr
+          td(width="30%")
+            table.table.bordered
+              tr
+                th Current Wounds
+                th Max Wounds
+              tr
+                td.text-box
+                td.text-box
+          td()
+          td(width="60%")
+            table.table.bordered
+              tr
+                th(width="33%") Base Defense
+                th Bonuses
+              tr
+                td.text-box
+                td.text-box
+
+      mixin move(m, checked)
+        .move
+          h3.move-name
+            -var chk = ""
+            if checked
+              -chk = " checked"
+            span.checkbox("class" = chk)
+            = m.name
+          .move-description!= Handlebars.compile(m.description)(gameData)
+
+      section
+        .equipment
+          h2 Equipment
+          - var n = 0;
+          while n < 20
+            span.underline.full
+            - n++
+        .moves
+          .starting-mvoes
+            h2 Starting Moves
+            each m,key in starting_moves
+              +move(m, true)
+
+          .advanced-moves
+            h2 Advanced Moves
+            each m,key in advanced_moves
+              +move(m)
+
+
+
+
+
