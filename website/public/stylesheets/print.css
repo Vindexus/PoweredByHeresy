@@ -216,9 +216,13 @@ table.table {
   width: 100%;
 }
 
+table.table th {
+  font-weight: bold;
+}
+
 table.table td,
 table.table th {
-  padding: 2pt 1pt;
+  padding: 5pt 1pt;
 }
 
 table.table.bordered {
@@ -278,4 +282,9 @@ table td.text-box {
 
 h3.move-name {
   margin: 0 0 0.1in 0;
+}
+
+.advanced-moves {
+  width: 100%;
+  float: left;
 }
