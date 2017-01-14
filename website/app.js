@@ -41,6 +41,18 @@ function renderFilePage (req, res, next) {
   res.render('file')
 }
 
+/* Starting and Advanced Moves */
+app.get('/sheet/moves', function(req, res, next) {
+  var data = {
+    basic_moves: gameData.basicmoves,
+    advanced_moves: gameData.advancedmoves,
+    Handlebars: handlebars,
+    gameData: gameData
+  }
+  res.render('moves', data)
+})
+
+
 /* Printable Character Sheet */
 app.get('/sheet/:class', function(req, res, next) {
   var cl = gameData[req.params.class]

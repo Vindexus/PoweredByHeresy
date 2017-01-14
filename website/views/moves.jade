@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title #{title} - Powered by Heresy
+    link(href="https://fonts.googleapis.com/css?family=EB+Garamond|Homemade+Apple" rel="stylesheet")
+    link(href="/stylesheets/print.css" rel="stylesheet")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+
+  body
+    .print-container
+      mixin move(m, checked)
+        .move
+          h3.move-name
+            -var chk = ""
+            if checked
+              -chk = " checked"
+            span.checkbox("class" = chk)
+            = m.name
+          .move-description!= Handlebars.compile(m.description)(gameData)
+
+      .starting-mvoes
+        h2 Basic Moves
+        each m,key in basic_moves
+          +move(m, true)
+
+      .advanced-moves
+        h2 Advanced Moves
+        each m,key in advanced_moves
+          +move(m)
+
+
+
+
+
