@@ -16,12 +16,12 @@ You can make small text changes directly on GitHub by editing files in the [sour
  - [Partials](https://github.com/Vindexus/PoweredByHeresy/tree/master/source/partials): Small templates for things in pages that crop up a lot, like moves.
  
 #### 1.1 Previewing Changes
-If you'd like to preview the changes you make you'll need to [run the project locally](https://vindexus.github.io/PoweredByHeresy/workflow/runningtheproject) so you can see what the compilers output.
+If you'd like to preview the changes you make you'll need to [run the project locally](https://vindexus.github.io/PoweredByHeresy/runningtheproject) so you can see what the compilers output.
 
 ### 2. Making Large Text Changes
 If you want to make large changes, you'll probably need to get the entire project with its code up and running locally.
 
-Read [how to set up the project here](https://vindexus.github.io/PoweredByHeresy/workflow/runningtheproject).
+Read [how to set up the project here](https://vindexus.github.io/PoweredByHeresy/runningtheproject).
 
 ### 3. Making Code Changes
 The project uses two generic compilers I've written:
